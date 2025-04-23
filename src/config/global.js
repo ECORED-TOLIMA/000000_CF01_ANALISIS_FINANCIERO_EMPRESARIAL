@@ -1,7 +1,8 @@
 export default {
   global: {
-    componenteFormativo: 'Nombre del recurso educativo',
-    descripcionCurso: 'Descripción del RED',
+    componenteFormativo: 'Fundamentos del análisis financiero',
+    descripcionCurso:
+      'Este componente introduce a los aprendices en los conceptos fundamentales del análisis financiero, proporcionando una base sólida sobre su importancia en la gestión empresarial. Se explorarán los principios de contabilidad aplicados al análisis financiero y se abordarán técnicas básicas para la lectura e interpretación de estados financieros.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -31,13 +32,40 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo_de_primer_nivel',
+        titulo:
+          'Introducción al análisis financiero y su importancia en las organizaciones',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo_de_segundo_nivel',
+            titulo: 'Definición y objetivos del análisis financiero',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Importancia del análisis financiero en las organizaciones',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo:
+              'Aplicaciones del análisis financiero en la toma de decisiones',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Usuarios del análisis financiero: internos y externos',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: 'Apoyo en la toma de decisiones estratégicas',
+            hash: 't_1_5',
+          },
+          {
+            numero: '1.6',
+            titulo: 'Beneficios y limitaciones del análisis financiero',
+            hash: 't_1_6',
           },
         ],
       },
@@ -45,14 +73,40 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo_de_primer_nivel',
+        titulo: 'Principios de contabilidad aplicados al análisis financiero',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo:
+              'Relación entre activos, pasivos, patrimonio, ingresos y gastos',
+            hash: 't_2_1',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo_de_primer_nivel',
+        titulo:
+          'Técnicas básicas: análisis horizontal y vertical de estados financieros',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Análisis horizontal',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Análisis vertical',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Comparación entre el análisis horizontal y vertical',
+            hash: 't_3_3',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -102,28 +156,80 @@ export default {
   },
   complementario: [
     {
-      tema: 'Tema_complementario',
-      referencia: 'Referencia_complementario',
-      tipo: 'Tipo_complementario',
-      link: 'Link_complementario',
+      tema:
+        '1. Introducción al análisis financiero y su importancia en las organizaciones',
+      referencia:
+        'Ecosistema de Recursos Educativos SENA. (2023). Análisis financiero en la unidad productiva. [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=ksTnz02WqTU ',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: '2. Principios de contabilidad aplicados al análisis financiero',
+      referencia:
+        'Nava Rosillón, M. A. (2009). Análisis financiero: una herramienta clave para una gestión financiera eficiente. Revista Venezolana de Gerencia, 14(48).',
+      tipo: 'Artículo',
+      link:
+        'https://ve.scielo.org/scielo.php?script=sci_arttext&pid=S1315-99842009000400009 ',
     },
   ],
   glosario: [
     {
-      termino: 'Termino_glosario',
-      significado: 'Significado_glosario',
+      termino: 'Análisis financiero',
+      significado:
+        'proceso de evaluación de la situación económica y financiera de una empresa, mediante el estudio de sus estados financieros.',
+    },
+    {
+      termino: 'Capital de trabajo',
+      significado:
+        'diferencia entre los activos corrientes y los pasivos corrientes de una empresa, indicando su capacidad para operar a corto plazo.',
+    },
+    {
+      termino: 'Endeudamiento',
+      significado:
+        'nivel de obligaciones financieras de una empresa, en relación con su patrimonio y activos.',
+    },
+    {
+      termino: 'Liquidez',
+      significado:
+        'capacidad de una empresa para cumplir con sus obligaciones a corto plazo, utilizando sus activos más líquidos.',
+    },
+    {
+      termino: 'Margen de utilidad',
+      significado:
+        'indicador financiero que mide la rentabilidad de una empresa, en relación con sus ingresos totales.',
+    },
+    {
+      termino: 'Punto de equilibrio',
+      significado:
+        'nivel de ventas en el cual los ingresos cubren exactamente los costos totales, sin generar ganancias ni pérdidas.',
+    },
+    {
+      termino: 'Rentabilidad',
+      significado:
+        'relación entre las ganancias obtenidas y los recursos empleados para generarlas, expresada generalmente como un porcentaje.',
+    },
+    {
+      termino: 'Tasa de interés',
+      significado:
+        'porcentaje que se cobra o paga por el uso de una cantidad de dinero, durante un tiempo determinado.',
     },
   ],
   referencias: [
     {
-      referencia: 'Nombre_referencias',
-      link: 'Link_referencias',
+      referencia:
+        'Coral Delgado, L. C. & Gudiño Dávila, E. L. (2014). Contabilidad universitaria. (7ª Edición). Bogotá, Colombia: Editorial. Mc Graw Hill.',
+    },
+    {
+      referencia:
+        'Díaz, H. (2006). Contabilidad general. (2ª Edición). México DF, México: Editorial. Pearson Prentice Hall.',
+    },
+    {
+      referencia:
+        'García, O. L. (2009). Administración financiera: Fundamentos y aplicaciones. (4ª Edición). Bogotá, Colombia: Editorial. Desconocida.',
+    },
+    {
+      referencia:
+        'Ortiz Anaya, H. (2011). Análisis financiero aplicado y principios de administración financiera. (14ª Edición). Bogotá, Colombia: Editorial. Universidad Externado de Colombia.',
     },
   ],
   creditos: [
