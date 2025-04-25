@@ -10,7 +10,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5.bgs.p-4.brad
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="En la síntesis del componente formativo Fundamentos del análisis financiero, se define lo que tienen que ver con el análisis financiero y se explican cuáles son su objetivos dentro del proceso organizacional; además, de relacionan los principios contables y el impacto que estos causan, a partir de la interpretación y la ecuación contable; de igual manera, se hace mención sobre el balance general, los resultados y el flujo de efectivo que está presente en los estados financieros; y se finaliza, con la explicación del análisis vertical y horizontal que se lleva a cabo dentro de las técnicas del análisis financiero.")
+          img(src="@/assets/curso/sintesis.svg", alt="En la síntesis del componente formativo Fundamentos del análisis financiero, se define lo que tienen que ver con el análisis financiero y se explican cuáles son sus objetivos dentro del proceso organizacional; además, se relacionan los principios contables y el impacto que estos causan, a partir de la interpretación y la ecuación contable; de igual manera, se hace mención sobre el balance general, los resultados y el flujo de efectivo que está presente en los estados financieros; y se finaliza, con la explicación del análisis vertical y horizontal que se lleva a cabo dentro de las técnicas del análisis financiero.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
