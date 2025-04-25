@@ -95,7 +95,7 @@
                 th(style="background-color: #FBE3FF; width: 25%; font-size: 18px;") CONCEPTO
                 th(style="background-color: #FBE3FF; width: 25%; font-size: 18px;") AÑO 1
                 th(style="background-color: #FBE3FF; width: 25%; font-size: 18px;") AÑO 2
-                th(style="background-color: #FBE3FF; width: 25%; font-size: 18px;") VARIACÓN (%)
+                th(style="background-color: #FBE3FF; width: 25%; font-size: 18px;") VARIACIÓN (%)
             tbody
               tr(data-aos="fade-right")
                 td #[b Ingresos]
@@ -118,7 +118,7 @@
     Separador
 
     .titulo-segundo.color-acento-contenido
-      h2#t_3_1 3.2 Análisis horizontal
+      h2#t_3_2 3.2 Análisis vertical
 
     p.mb-5(data-aos="fade-down-right") El análisis vertical es una técnica de evaluación financiera que permite examinar la composición de los estados financieros en un solo período, expresando cada cuenta como un porcentaje del total del activo, pasivo o patrimonio. Su principal objetivo es facilitar la interpretación de la estructura financiera de la empresa y evaluar la proporción que representa cada rubro dentro del total.
 
@@ -177,14 +177,14 @@
         div.formulas.mb-3
           img(src='@/assets/curso/temas/tema3/formula1.svg', alt='')
 
-    p.mb-4(data-aos="fade-down-right") #[b Para el estado de resultados:]
+    p.mb-4(data-aos="fade-down-right") Para el estado de resultados:
     
     .row.justify-content-center.align-items-center.mb-4
       .col-12(data-aos="fade-right")
         div.formulas.mb-3
           img(src='@/assets/curso/temas/tema3/formula2.svg', alt='')
 
-    p.mb-4(data-aos="fade-down-right") #[b Lo anterior, se complementa con los siguientes datos:]
+    p.mb-4(data-aos="fade-down-right") Lo anterior, se complementa con los siguientes datos:
 
     .row.justify-content-center.mb-0
       .col-lg-10
@@ -211,6 +211,8 @@
                 td #[b Total activos]
                 td 2000
                 td 100 %
+    
+    p.mb-0(data-aos="fade-down-right") Los activos corrientes representan el 40 % del total de activos, mientras que los activos no corrientes constituyen el 60 %.
 
     Separador
 
@@ -226,8 +228,8 @@
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/tema3/img-07.svg' alt='Imagen decorativa')
           .col-lg-8.col-12.mb-4
-            p Ambas técnicas son complementarias, ya que mientras el análisis horizontal permite estudiar la evolución financiera en el tiempo, el análisis vertical facilita la interpretación de la proporción que representa cada cuenta dentro del total. Juntas, proporcionan una visión integral del desempeño financiero de la empresa y facilitan la toma de decisiones estratégicas.
-            p Al respecto, se relaciona la siguiente tabla, la cual incluye por característica, lo que representa cada análisis:
+            p(data-aos="fade-down-right") Ambas técnicas son complementarias, ya que mientras el análisis horizontal permite estudiar la evolución financiera en el tiempo, el análisis vertical facilita la interpretación de la proporción que representa cada cuenta dentro del total. Juntas, proporcionan una visión integral del desempeño financiero de la empresa y facilitan la toma de decisiones estratégicas.
+            p(data-aos="fade-down-right") Al respecto, se relaciona la siguiente tabla, la cual incluye por característica, lo que representa cada análisis:
 
     .row.justify-content-center.mb-0
       .col-lg-10
@@ -251,11 +253,11 @@
                 td Identificar tendencias y variaciones.
                 td Evaluar la composición financiera.
               tr(data-aos="fade-right")
-                td #[b Unidad de Medida]
+                td #[b Unidad de medida]
                 td Porcentajes de variación interanual.
                 td Porcentajes de participación en el total.
               tr(data-aos="fade-right")
-                td #[b Uso Principal]
+                td #[b Uso principal]
                 td Evaluar crecimiento y estabilidad.
                 td Comparar con empresas del sector.
 
@@ -317,7 +319,7 @@
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/tema3/icono-10.svg' alt='Imagen decorativa')
           .col-lg-8.col-12.mb-4
-            p En resumen, el dominio y la aplicación efectiva del análisis horizontal y vertical, no solo contribuyen al conocimiento profundo de la situación financiera de la empresa, sino que también optimizan el proceso de toma de decisiones, minimizan riesgos y maximizan las oportunidades de crecimiento y expansión sostenible. Este enfoque integral y dinámico es crucial para los empresarios y analistas financieros en su búsqueda de soluciones efectivas a los desafíos del entorno económico.
+            p(data-aos="fade-down-right") En resumen, el dominio y la aplicación efectiva del análisis horizontal y vertical, no solo contribuyen al conocimiento profundo de la situación financiera de la empresa, sino que también optimizan el proceso de toma de decisiones, minimizan riesgos y maximizan las oportunidades de crecimiento y expansión sostenible. Este enfoque integral y dinámico es crucial para los empresarios y analistas financieros en su búsqueda de soluciones efectivas a los desafíos del entorno económico.
 
 
 

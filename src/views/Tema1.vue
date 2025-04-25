@@ -38,7 +38,7 @@
 
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col-lg-6.mb-3
-        .tarjeta-avatar-b
+        .tarjeta-avatar-b.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema1/icono-01.svg' alt='AvatarTop')
           .tarjeta.color1(style= "width: 100%")
@@ -47,7 +47,7 @@
               p Permite conocer el estado actual de la empresa, a través del estudio de los estados financieros, identificando fortalezas y debilidades en su estructura financiera.
 
       .col-lg-6.mb-3
-        .tarjeta-avatar-b
+        .tarjeta-avatar-b.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema1/icono-02.svg' alt='AvatarTop')
           .tarjeta.color1(style= "width: 100%")
@@ -56,7 +56,7 @@
               p Ayuda a determinar qué tan rentable es la empresa y si está utilizando sus recursos de manera eficiente para generar valor.
 
       .col-lg-6.mb-3
-        .tarjeta-avatar-b
+        .tarjeta-avatar-b.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema1/icono-03.svg' alt='AvatarTop')
           .tarjeta.color1(style= "width: 100%")
@@ -65,7 +65,7 @@
               p Examina la capacidad de la empresa para cumplir con sus obligaciones de corto y largo plazo, asegurando su estabilidad financiera.
 
       .col-lg-6.mb-3
-        .tarjeta-avatar-b
+        .tarjeta-avatar-b.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema1/icono-04.svg' alt='AvatarTop')
           .tarjeta.color1(style= "width: 100%")
@@ -74,7 +74,7 @@
               p Proporciona información relevante para la administración, inversionistas y entidades financieras, quienes pueden decidir sobre expansión, reducción de costos, inversión en nuevos proyectos o financiamiento externo.
 
       .col-lg-6.mb-3
-        .tarjeta-avatar-b
+        .tarjeta-avatar-b.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema1/icono-05.svg' alt='AvatarTop')
           .tarjeta.color1(style= "width: 100%")
@@ -159,7 +159,7 @@
     Separador
 
     .titulo-segundo.color-acento-contenido
-      h2#t_1_4 1.4 Usuarios del análisis financiero: internos y externoses
+      h2#t_1_4 1.4 Usuarios del análisis financiero: internos y externos
     
     p.mb-5(data-aos="fade-down-right") El análisis financiero es una herramienta fundamental para la toma de decisiones en una organización y su utilidad se extiende a distintos grupos de interés. Retomando a Ortiz (2011), los usuarios del análisis financiero se pueden clasificar en internos y externos, dependiendo de su relación con la empresa y los objetivos que buscan con la información financiera.
 
@@ -339,7 +339,7 @@
 
                 li.mb-0
                   i.fas.fa-check(style="color:#BAC36A")
-                  | Prever posibles crisis financieras y tomar medidas correctivas a tiempo.ostos.
+                  | Prever posibles crisis financieras y tomar medidas correctivas a tiempo.
 
     p.mb-5(data-aos="fade-down-right") Por ejemplo, una empresa con un alto nivel de endeudamiento puede utilizar el índice de cobertura de intereses, para determinar si tiene la capacidad de pagar su deuda sin comprometer su operación.
     
@@ -369,6 +369,8 @@
                 li.mb-0
                   i.fas.fa-check(style="color:#BAC36A")
                   | Determinar estrategias para mejorar la eficiencia operativa y maximizar los beneficios.
+
+    p.mb-5(data-aos="fade-down-right") Un caso común es el análisis del ciclo de conversión de efectivo, que permite a las empresas gestionar mejor sus flujos de caja y evitar problemas de liquidez.
 
     .titulo1.mb-5(data-aos="zoom-in")
       img(src='@/assets/curso/temas/icono.svg', alt='Imagen decorativa')
@@ -450,7 +452,7 @@
           .row.justify-content-center.align-items-center(data-aos="fade-right")
             .col-lg-6.order-lg-1.order-2(data-aos="fade-right")
               h3 Facilita la comparación con el sector
-              p.mb-0 A través de benchmarking financiero, las empresas pueden comparar sus indicadores con los de otras organizaciones del mismo sector, identificando fortalezas y áreas de mejora.
+              p.mb-0 A través de #[i benchmarking] financiero, las empresas pueden comparar sus indicadores con los de otras organizaciones del mismo sector, identificando fortalezas y áreas de mejora.
 
             .col-lg-6.col-10.order-lg-2.order-lg-1.mb-lg-0.mb-4(data-aos="fade-left")
               img(src='@/assets/curso/temas/tema1/img-18.png', alt='Texto que describa la imagen')
