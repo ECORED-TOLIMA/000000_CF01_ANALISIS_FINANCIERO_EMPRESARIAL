@@ -131,8 +131,8 @@
       .col-lg-4.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema3/img-06.svg' alt="Imagen decorativa")
 
-    p.mb-5(data-aos="fade-down-right") Como características del análisis vertical, se pueden encontrar aspectos como los siguientes, los cuales tiene se explicación:
-
+    p.mb-5(data-aos="fade-down-right") Como características del análisis vertical, se pueden encontrar las siguientes:
+    
     .row.justify-content-center.mb-5
       .col-xl-4.col-lg-6.col-md-6.col-12.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")(@mouseover="mostrarIndicador = true")

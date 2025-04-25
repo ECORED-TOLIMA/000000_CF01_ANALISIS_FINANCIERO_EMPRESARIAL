@@ -47,32 +47,35 @@
       h4.mb-0 Impacto en la interpretación de los estados financieros
 
     p.mb-5(data-aos="fade-down-right")  Los principios contables afectan directamente la manera en que se presentan y analizan los estados financieros, determinando la confiabilidad y precisión de los informes. Su impacto puede percibirse en los siguientes aspectos:
-
-    LineaTiempoE.color-acento-contenido(data-aos="flip-up")
-      .row.justify-content-center(titulo="01")
-        .col-lg-2.col-4.mb-lg-0.mb-4
-          img(src='@/assets/curso/temas/tema2/icono-05.svg' alt="Imagen decorativa")
+    
+    .container
+      .row.justify-content-start
         .col-lg-10
-          .h4 Comparabilidad
-          p.mb-0 La aplicación uniforme de los principios contables, permite comparar la información financiera de diferentes períodos y entre distintas empresas.
-      .row.justify-content-center(titulo="02")
-        .col-lg-2.col-4.mb-lg-0.mb-4
-          img(src='@/assets/curso/temas/tema2/icono-06.svg' alt="Imagen decorativa")
-        .col-lg-10
-          .h4 Transparencia
-          p.mb-0 Garantizan que la información financiera refleje fielmente la situación económica de la empresa, evitando manipulaciones contables.
-      .row.justify-content-center(titulo="03")
-        .col-lg-2.col-4.mb-lg-0.mb-4
-          img(src='@/assets/curso/temas/tema2/icono-07.svg' alt="Imagen decorativa")
-        .col-lg-10
-          .h4 Toma de decisiones
-          p.mb-0 Facilitan la evaluación de la rentabilidad, liquidez y solvencia de la empresa, brindando información clave para inversionistas, acreedores y directivos.
-      .row.justify-content-center(titulo="04")
-        .col-lg-2.col-4.mb-lg-0.mb-4
-          img(src='@/assets/curso/temas/tema2/icono-08.svg' alt="Imagen decorativa")
-        .col-lg-10
-          .h4 Cumplimiento normativo
-          p.mb-0 Aseguran que la empresa cumpla con los estándares contables exigidos por las normativas nacionales e internacionales.
+          LineaTiempoE.color-acento-contenido(data-aos="flip-up")
+            .row.justify-content-center(titulo="01")
+              .col-lg-2.col-4.mb-lg-0.mb-4
+                img(src='@/assets/curso/temas/tema2/icono-05.svg' alt="Imagen decorativa")
+              .col-lg-10
+                .h4 Comparabilidad
+                p.mb-0 La aplicación uniforme de los principios contables, permite comparar la información financiera de diferentes períodos y entre distintas empresas.
+            .row.justify-content-center(titulo="02")
+              .col-lg-2.col-4.mb-lg-0.mb-4
+                img(src='@/assets/curso/temas/tema2/icono-06.svg' alt="Imagen decorativa")
+              .col-lg-10
+                .h4 Transparencia
+                p.mb-0 Garantizan que la información financiera refleje fielmente la situación económica de la empresa, evitando manipulaciones contables.
+            .row.justify-content-center(titulo="03")
+              .col-lg-2.col-4.mb-lg-0.mb-4
+                img(src='@/assets/curso/temas/tema2/icono-07.svg' alt="Imagen decorativa")
+              .col-lg-10
+                .h4 Toma de decisiones
+                p.mb-0 Facilitan la evaluación de la rentabilidad, liquidez y solvencia de la empresa, brindando información clave para inversionistas, acreedores y directivos.
+            .row.justify-content-center(titulo="04")
+              .col-lg-2.col-4.mb-lg-0.mb-4
+                img(src='@/assets/curso/temas/tema2/icono-08.svg' alt="Imagen decorativa")
+              .col-lg-10
+                .h4 Cumplimiento normativo
+                p.mb-0 Aseguran que la empresa cumpla con los estándares contables exigidos por las normativas nacionales e internacionales.
 
     Separador
 
