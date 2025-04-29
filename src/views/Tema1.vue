@@ -13,7 +13,7 @@
           img(src='@/assets/curso/temas/tema1/img-02.png', alt='')
 
     p(data-aos="fade-down-right") El análisis financiero es un proceso que permite conocer la estabilidad, rentabilidad y capacidad de crecimiento de una empresa a partir de la interpretación de sus estados financieros. Este proceso es clave para que inversionistas, administradores y entidades de control, tomen decisiones basadas en datos confiables.
-    p.mb-5(data-aos="fade-down-right") Las organizaciones utilizan diversas técnicas de análisis para evaluar su desempeño económico y financiero, identificando fortalezas y debilidades en su estructura contable. Al aplicar estos métodos, es posible optimizar la asignación de recursos y minimizar riesgos financieros.
+    p.mb-0(data-aos="fade-down-right") Las organizaciones utilizan diversas técnicas de análisis para evaluar su desempeño económico y financiero, identificando fortalezas y debilidades en su estructura contable. Al aplicar estos métodos, es posible optimizar la asignación de recursos y minimizar riesgos financieros.
 
     Separador
 
@@ -114,7 +114,7 @@
         p(data-aos="fade-down-right") Para responder estos interrogantes, el análisis financiero se basa en la interpretación de indicadores como la rentabilidad, liquidez, apalancamiento y eficiencia operativa, los cuales son determinantes al momento de tomar decisiones estratégicas.
 
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
-        img(src='@/assets/curso/temas/tema1/img-04.svg' alt="Imagen decorativa")
+        img(src='@/assets/curso/temas/tema1/img-04.png' alt="Imagen decorativa")
 
     Separador
 
@@ -214,7 +214,7 @@
 
     p.mb-5(data-aos="fade-down-right") Son agentes fuera de la organización que requieren información financiera para evaluar la solidez y estabilidad de la empresa. Entre ellos se encuentran:
 
-    SlyderF.mb-5(columnas="col-lg-4 col-sm-6" data-aos="fade-right")
+    SlyderF.mb-5(columnas="col-lg-4" data-aos="fade-right")
       .tarjeta.BGIMG02.p-4
         .row.justify-content-center.mb-4
           .col-8
@@ -254,7 +254,7 @@
     .row.justify-content-center.mb-5(data-aos="fade-down-right")
       .col-10
         p.mb-4 #[b Rol del análisis financiero en la gestión empresarial]
-        .bloque-texto-b.color-primario
+        .bloque-texto-b.color-primario.py-4
           .bloque-texto-b__texto
             p.mb-5(data-aos="fade-left") El análisis financiero es una herramienta clave en la gestión empresarial, ya que proporciona información objetiva sobre la situación económica de una organización, permitiendo tomar decisiones estratégicas fundamentadas. Según Ortiz (2011), su papel dentro de la empresa, se extiende a diversas áreas, incluyendo la planificación, el control y la optimización de los recursos.
 

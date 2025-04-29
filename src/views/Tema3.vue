@@ -77,25 +77,31 @@
       p.mb-2(data-aos="fade-down-right") Para calcular la variación en los ingresos de un año a otro, se usa la siguiente fórmula:
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-12(data-aos="fade-right")
-        div.formulas.mb-3
-          img(src='@/assets/curso/temas/tema3/formula3.svg', alt='')
-
-    p(data-aos="fade-down-right") Igualmente, se obtienen los siguientes datos: 
+      .col-auto
+        p.mb-0 Variación porcentual = (
+      .col-auto
+        .fraccionario
+          span.num Valor en el periodo actual - Valor en el periodo anterior
+          span.div /
+          span.den Valor en el periodo anterior
+      .col-auto
+        p.mb-0 ) x 100
+  
+    p.mb-4(data-aos="fade-down-right") Igualmente, se obtienen los siguientes datos: 
 
     .row.justify-content-center.mb-5
       .col-lg-10
-        .titulo-sexto.color-secundario(data-aos="fade-right")
+        .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Tabla 1.
           i Variación porcentual por años
         .tabla-a.color-acento-contenido.mb-5
           table(data-aos="zoom-in"  alt="En la tabla 2, se presentan ejemplos de metas aplicadas a un proyecto turístico en Colombia, destacando su alineación con objetivos estratégicos como sostenibilidad, desarrollo de infraestructura, promoción del destino y beneficio para la comunidad local.")
             thead
               tr(data-aos="fade-right")
-                th(style="background-color: #FBE3FF; width: 25%; font-size: 18px;") CONCEPTO
-                th(style="background-color: #FBE3FF; width: 25%; font-size: 18px;") AÑO 1
-                th(style="background-color: #FBE3FF; width: 25%; font-size: 18px;") AÑO 2
-                th(style="background-color: #FBE3FF; width: 25%; font-size: 18px;") VARIACIÓN (%)
+                th(style="background-color: #BFC9FF; width: 25%; font-size: 18px;") CONCEPTO
+                th(style="background-color: #BFC9FF; width: 25%; font-size: 18px;") AÑO 1
+                th(style="background-color: #BFC9FF; width: 25%; font-size: 18px;") AÑO 2
+                th(style="background-color: #BFC9FF; width: 25%; font-size: 18px;") VARIACIÓN (%)
             tbody
               tr(data-aos="fade-right")
                 td #[b Ingresos]
@@ -128,7 +134,7 @@
         p El análisis vertical es útil para comparar la estructura financiera de una empresa en distintos períodos o con empresas del mismo sector, ayudando a detectar fortalezas y debilidades. También permite evaluar la eficiencia operativa y la capacidad de generación de valor.
         p Además, este tipo de análisis es una herramienta clave en la toma de decisiones gerenciales, ya que facilita la identificación de áreas donde se pueden optimizar recursos, reducir costos o mejorar la rentabilidad de la empresa.
 
-      .col-lg-4.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
+      .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema3/img-06.svg' alt="Imagen decorativa")
 
     p.mb-5(data-aos="fade-down-right") Como características del análisis vertical, se pueden encontrar las siguientes:
@@ -173,22 +179,34 @@
     p.mb-4(data-aos="fade-down-right") Para el estado de situación financiera (balance general):
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-12(data-aos="fade-right")
-        div.formulas.mb-3
-          img(src='@/assets/curso/temas/tema3/formula1.svg', alt='')
+      .col-auto
+        p.mb-0 Porcentaje de cada cuenta = (
+      .col-auto
+        .fraccionario
+          span.num Valor de la cuenta
+          span.div /
+          span.den Total Activos o Total Pasivos y Patrimonio
+      .col-auto
+        p.mb-0 ) x 100
 
     p.mb-4(data-aos="fade-down-right") Para el estado de resultados:
-    
+
     .row.justify-content-center.align-items-center.mb-4
-      .col-12(data-aos="fade-right")
-        div.formulas.mb-3
-          img(src='@/assets/curso/temas/tema3/formula2.svg', alt='')
+      .col-auto
+        p.mb-0 Porcentaje de cada cuenta = (
+      .col-auto
+        .fraccionario
+          span.num Valor de la cuenta
+          span.div /
+          span.den Ingresos Totales
+      .col-auto
+        p.mb-0 ) x 100
 
     p.mb-4(data-aos="fade-down-right") Lo anterior, se complementa con los siguientes datos:
 
     .row.justify-content-center.mb-0
       .col-lg-10
-        .titulo-sexto.color-secundario(data-aos="fade-right")
+        .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Tabla 2.
           i Variación porcentual del total de activos
         .tabla-a.color-acento-contenido.mb-5
@@ -221,28 +239,29 @@
 
     p.mb-5(data-aos="fade-down-right") El análisis financiero se basa en diversas herramientas que permiten interpretar la información contable de manera efectiva. Entre ellas, el análisis horizontal y el análisis vertical se destacan por su capacidad para evaluar la situación financiera desde diferentes ángulos. 
 
-    .row.justify-content-center.mb-4
-      .col-lg-10.col-12
-        .row.justify-content-center
-          .col-lg-4.col-8.mb-4
-            figure(data-aos="zoom-in")
-              img(src='@/assets/curso/temas/tema3/img-07.svg' alt='Imagen decorativa')
-          .col-lg-8.col-12.mb-4
-            p(data-aos="fade-down-right") Ambas técnicas son complementarias, ya que mientras el análisis horizontal permite estudiar la evolución financiera en el tiempo, el análisis vertical facilita la interpretación de la proporción que representa cada cuenta dentro del total. Juntas, proporcionan una visión integral del desempeño financiero de la empresa y facilitan la toma de decisiones estratégicas.
-            p(data-aos="fade-down-right") Al respecto, se relaciona la siguiente tabla, la cual incluye por característica, lo que representa cada análisis:
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-3.col-12.mb-3.d-lg-flex.d-none(data-aos="fade-left")
+        figure
+          img(src='@/assets/curso/temas/tema3/img-07.svg', alt='Imagen decorativa')
+
+      .col-lg-7.col-12.mb-3(data-aos="fade-right")
+        .bloque-texto-b.color-primario.py-4
+          .bloque-texto-b__texto
+            p Ambas técnicas son complementarias, ya que mientras el análisis horizontal permite estudiar la evolución financiera en el tiempo, el análisis vertical facilita la interpretación de la proporción que representa cada cuenta dentro del total. Juntas, proporcionan una visión integral del desempeño financiero de la empresa y facilitan la toma de decisiones estratégicas.
+            p.mb-0 Al respecto, se relaciona la siguiente tabla, la cual incluye por característica, lo que representa cada análisis:
 
     .row.justify-content-center.mb-0
       .col-lg-10
-        .titulo-sexto.color-secundario(data-aos="fade-right")
+        .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Tabla 3.
           i Características del análisis horizontal y vertical
         .tabla-a.color-acento-contenido.mb-5
           table(data-aos="zoom-in"  alt="En la tabla 2, se presentan ejemplos de metas aplicadas a un proyecto turístico en Colombia, destacando su alineación con objetivos estratégicos como sostenibilidad, desarrollo de infraestructura, promoción del destino y beneficio para la comunidad local.")
             thead
               tr(data-aos="fade-right")
-                th(style="background-color: #FBE3FF; width: 25%; font-size: 18px;") Característica
-                th(style="background-color: #FBE3FF; width: 25%; font-size: 18px;") Análisis horizontal
-                th(style="background-color: #FBE3FF; width: 25%; font-size: 18px;") Análisis vertical
+                th(style="background-color: #BFC9FF; width: 25%; font-size: 18px;") Análisis vertical
+                th(style="background-color: #BFC9FF; width: 25%; font-size: 18px;") Característica
+                th(style="background-color: #BFC9FF; width: 25%; font-size: 18px;") Análisis horizontal
             tbody
               tr(data-aos="fade-right")
                 td #[b Enfoque]
@@ -312,16 +331,15 @@
       .bloque-texto-g__texto.p-4
         p.mb-0 La correcta aplicación de estas técnicas analíticas permite a las empresas no solo mejorar su gestión financiera, sino también minimizar riesgos asociados a una mala administración de los recursos. Al identificar áreas de mejora, comparar el rendimiento con el de los competidores y evaluar la sostenibilidad financiera, las empresas pueden tomar decisiones más estratégicas y bien fundamentadas que potencien su competitividad y éxito en el mercado.
 
-    .row.justify-content-center.mb-4
-      .col-lg-10.col-12
-        .row.justify-content-center
-          .col-lg-4.col-8.mb-4
-            figure(data-aos="zoom-in")
-              img(src='@/assets/curso/temas/tema3/icono-10.svg' alt='Imagen decorativa')
-          .col-lg-8.col-12.mb-4
-            p(data-aos="fade-down-right") En resumen, el dominio y la aplicación efectiva del análisis horizontal y vertical, no solo contribuyen al conocimiento profundo de la situación financiera de la empresa, sino que también optimizan el proceso de toma de decisiones, minimizan riesgos y maximizan las oportunidades de crecimiento y expansión sostenible. Este enfoque integral y dinámico es crucial para los empresarios y analistas financieros en su búsqueda de soluciones efectivas a los desafíos del entorno económico.
+    .row.justify-content-center.align-items-center
+      .col-lg-3.col-12.mb-3.d-lg-flex.d-none(data-aos="fade-left")
+        figure
+          img(src='@/assets/curso/temas/tema3/icono-10.svg', alt='Imagen decorativa')
 
-
+      .col-lg-7.col-12.mb-3(data-aos="fade-right")
+        .bloque-texto-b.color-primario.py-4
+          .bloque-texto-b__texto
+            p.mb-0 En resumen, el dominio y la aplicación efectiva del análisis horizontal y vertical, no solo contribuyen al conocimiento profundo de la situación financiera de la empresa, sino que también optimizan el proceso de toma de decisiones, minimizan riesgos y maximizan las oportunidades de crecimiento y expansión sostenible. Este enfoque integral y dinámico es crucial para los empresarios y analistas financieros en su búsqueda de soluciones efectivas a los desafíos del entorno económico.
 
 
 

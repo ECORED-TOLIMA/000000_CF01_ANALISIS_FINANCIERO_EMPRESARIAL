@@ -41,6 +41,9 @@
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: black !important   
 
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/img01.png") !important
+
 figcaption
   font-weight: normal
 
@@ -349,3 +352,43 @@ div.formulas img
 
 .crd_hover_txt .crd_hover_txt--body
   padding: 1.5rem 0.8rem !important
+
+.fraccionario
+  display: inline-block
+  vertical-align: middle 
+  margin: 0 0.2em 0.4ex
+  text-align: center
+
+.fraccionario > span
+  display: block
+  padding-top: 0.15em
+
+.fraccionario span.den
+  border-top: thin solid $color-sistema-texto
+
+.fraccionario span.div
+  display: none
+
+.bloque-texto-d
+  border-top: none
+
+.bloque-texto-d.color-primario::before
+  background-color: #F1F8E9
+  display: block
+  position: absolute
+  top: 40%
+  bottom: 0px
+  left: 58%
+  right: 0px
+
+.bloque-texto-b.color-primario:before
+  background-color: #F1F8E9
+
+.bg
+  &-c18
+    background-color: #F1F8E9
+    border-radius: 15px
+  &-c19
+    background-color: #F1F8E9
+    border-radius: 15px
+    height: 100%

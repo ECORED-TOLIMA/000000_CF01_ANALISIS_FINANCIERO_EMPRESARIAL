@@ -107,7 +107,7 @@
             i.fas.fa-angle-right
             p Por otro lado, los #[b gastos] representan las erogaciones necesarias para la operación de la empresa, como costos de producción, pago de salarios y servicios. Su adecuada gestión permite mantener un equilibrio financiero y maximizar la utilidad.
 
-      .col-lg-4.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
+      .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema2/img-02.svg' alt="Imagen decorativa")
 
     p.text-center.mb-4(data-aos="fade-down-right") La interacción entre estos elementos se evidencia en la ecuación contable fundamental:
@@ -187,7 +187,7 @@
         p Se basa en la ecuación contable fundamental:
         p #[b Activos = Pasivos + Patrimonio]
     
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.mb-5
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema2/icono-11.svg' alt="Imagen decorativa")
@@ -209,27 +209,43 @@
             h4.text-center.mt-5.mb-0 Patrimonio
             p.text-center.mt-4.mb-0 Aportes de los socios y utilidades retenidas.
 
-    .tarjeta--container.row.mb-5
-      .col-md.tarjeta.bgA10.p-5.mb-3(data-aos="fade-down-right") 
-        .row.justify-content-center.align-items-center.mb-4
-          .col-auto
-            img(src='@/assets/curso/temas/tema3/icono-01.svg', style="max-width: 82px", alt='').m-auto
-          .col
-            p.mb-0 Permite conocer la estabilidad financiera de la empresa.
-         
-      .col-md.tarjeta.bgA10.p-5.mb-3(data-aos="fade-down-right") 
-        .row.justify-content-center.align-items-center.mb-4
-          .col-auto
-            img(src='@/assets/curso/temas/tema3/icono-02.svg', style="max-width: 82px", alt='').m-auto
-          .col
-            p.mb-0 Indica la capacidad de pago a corto y largo plazo.
+    .row.justify-content-center.mb-5
+      .col-lg-12
+        .p-4.bg-c18(data-aos="fade-left")
+          p.text-center #[b Importancia]
+          .row.justify-content-center
+            .col-md-6.col-lg-4.mb-4.mb-lg-0
+              .p-3.bg-c19
+                .row.align-items-center
+                  .col-auto
+                    figure
+                      img(src='@/assets/curso/temas/tema3/icono-01.svg', alt='', style='width: 80px').m-auto
+                  .col
+                    .row.h-100.align-items-center
+                      .col-12
+                        p.mb-0 Permite conocer la estabilidad financiera de la empresa.
 
-      .col-md.tarjeta.bgA10.p-5.mb-3(data-aos="fade-down-right") 
-        .row.justify-content-center.align-items-center.mb-4
-          .col-auto
-            img(src='@/assets/curso/temas/tema3/icono-03.svg', style="max-width: 82px", alt='').m-auto
-          .col
-            p.mb-0 Es utilizado por inversionistas y bancos para evaluar la solidez económica.
+            .col-md-6.col-lg-4.mb-4.mb-lg-0
+              .p-3.bg-c19
+                .row.align-items-center
+                  .col-auto
+                    figure
+                      img(src='@/assets/curso/temas/tema3/icono-02.svg', alt='', style='width: 80px').m-auto
+                  .col
+                    .row.h-100.align-items-center
+                      .col-12
+                        p.mb-0 Indica la capacidad de pago a corto y largo plazo.
+
+            .col-md-6.col-lg-4
+              .p-3.bg-c19
+                .row.align-items-center
+                  .col-auto
+                    figure
+                      img(src='@/assets/curso/temas/tema3/icono-03.svg', alt='', style='width: 80px').m-auto
+                  .col
+                    .row.h-100.align-items-center
+                      .col-12
+                        p.mb-0 Es utilizado por inversionistas y bancos para evaluar la solidez económica.
 
     .h4.tcvo.mb-4(data-aos="fade-down-right")  ● B) Estado de resultados (estado de pérdidas y ganancias)
 
@@ -273,28 +289,44 @@
               img(src="@/assets/curso/temas/tema2/icono-17.svg", alt="alt").img90.m-auto
           h4.text-center.mt-5.mb-0 Utilidad o pérdida
           p.mb-0 Resultado final tras restar costos y gastos de los ingresos.
+    
+    .row.justify-content-center.mb-5
+      .col-lg-12
+        .p-4.bg-c18(data-aos="fade-left")
+          p.text-center #[b Importancia]
+          .row.justify-content-center
+            .col-md-6.col-lg-4.mb-4.mb-lg-0
+              .p-3.bg-c19
+                .row.align-items-center
+                  .col-auto
+                    figure
+                      img(src='@/assets/curso/temas/tema3/icono-04.svg', alt='', style='width: 80px').m-auto
+                  .col
+                    .row.h-100.align-items-center
+                      .col-12
+                        p.mb-0 Permite evaluar la rentabilidad del negocio.
 
-    .tarjeta--container.row.mb-5
-      .col-md.tarjeta.bgA10.p-5.mb-3
-        .row.justify-content-center.align-items-center.mb-4
-          .col-auto
-            img(src='@/assets/curso/temas/tema3/icono-04.svg', style="max-width: 82px", alt='').m-auto
-          .col
-            p.mb-0 Permite evaluar la rentabilidad del negocio.
-         
-      .col-md.tarjeta.bgA10.p-5.mb-3
-        .row.justify-content-center.align-items-center.mb-4
-          .col-auto
-            img(src='@/assets/curso/temas/tema3/icono-05.svg', style="max-width: 82px", alt='').m-auto
-          .col
-            p.mb-0 Ayuda a identificar áreas donde se pueden reducir costos o aumentar ingresos.
+            .col-md-6.col-lg-4.mb-4.mb-lg-0
+              .p-3.bg-c19
+                .row.align-items-center
+                  .col-auto
+                    figure
+                      img(src='@/assets/curso/temas/tema3/icono-05.svg', alt='', style='width: 80px').m-auto
+                  .col
+                    .row.h-100.align-items-center
+                      .col-12
+                        p.mb-0 Ayuda a identificar áreas donde se pueden reducir costos o aumentar ingresos.
 
-      .col-md.tarjeta.bgA10.p-5.mb-3
-        .row.justify-content-center.align-items-center.mb-4
-          .col-auto
-            img(src='@/assets/curso/temas/tema3/icono-06.svg', style="max-width: 82px", alt='').m-auto
-          .col
-            p.mb-0 Es clave para determinar el pago de impuestos y dividendos.
+            .col-md-6.col-lg-4
+              .p-3.bg-c19
+                .row.align-items-center
+                  .col-auto
+                    figure
+                      img(src='@/assets/curso/temas/tema3/icono-06.svg', alt='', style='width: 80px').m-auto
+                  .col
+                    .row.h-100.align-items-center
+                      .col-12
+                        p.mb-0 Es clave para determinar el pago de impuestos y dividendos.
     
     .h4.tcvo.mb-4(data-aos="fade-down-right") ● C) Estado de flujo de efectivo
 
@@ -320,27 +352,44 @@
             i.fas.fa-angle-right
             p.mb-0 #[b Actividades de financiamiento:] incluye la obtención y pago de préstamos, emisión de acciones y distribución de dividendos.
 
-    .tarjeta--container.row.mb-5(data-aos="fade-down-right") 
-      .col-md.tarjeta.bgA10.p-5.mb-3
-        .row.justify-content-center.align-items-center.mb-4
-          .col-auto
-            img(src='@/assets/curso/temas/tema3/icono-07.svg', style="max-width: 82px", alt='').m-auto
-          .col
-            p.mb-0 Indica la liquidez real de la empresa.
-         
-      .col-md.tarjeta.bgA10.p-5.mb-3
-        .row.justify-content-center.align-items-center.mb-4
-          .col-auto
-            img(src='@/assets/curso/temas/tema3/icono-08.svg', style="max-width: 82px", alt='').m-auto
-          .col
-            p.mb-0 Ayuda a prever problemas de flujo de caja.
+    .row.justify-content-center.mb-5
+      .col-lg-12
+        .p-4.bg-c18(data-aos="fade-left")
+          p.text-center #[b Importancia]
+          .row.justify-content-center
+            .col-md-6.col-lg-4.mb-4.mb-lg-0
+              .p-3.bg-c19
+                .row.align-items-center
+                  .col-auto
+                    figure
+                      img(src='@/assets/curso/temas/tema3/icono-07.svg', alt='', style='width: 80px').m-auto
+                  .col
+                    .row.h-100.align-items-center
+                      .col-12
+                        p.mb-0 Indica la liquidez real de la empresa.
 
-      .col-md.tarjeta.bgA10.p-5.mb-3
-        .row.justify-content-center.align-items-center.mb-4
-          .col-auto
-            img(src='@/assets/curso/temas/tema3/icono-09.svg', style="max-width: 82px", alt='').m-auto
-          .col
-            p.mb-0 Es clave para evaluar la capacidad de pago de deudas y la sostenibilidad del negocio.
+            .col-md-6.col-lg-4.mb-4.mb-lg-0
+              .p-3.bg-c19
+                .row.align-items-center
+                  .col-auto
+                    figure
+                      img(src='@/assets/curso/temas/tema3/icono-08.svg', alt='', style='width: 80px').m-auto
+                  .col
+                    .row.h-100.align-items-center
+                      .col-12
+                        p.mb-0 Ayuda a prever problemas de flujo de caja.
+
+            .col-md-6.col-lg-4
+              .p-3.bg-c19
+                .row.align-items-center
+                  .col-auto
+                    figure
+                      img(src='@/assets/curso/temas/tema3/icono-09.svg', alt='', style='width: 80px').m-auto
+                  .col
+                    .row.h-100.align-items-center
+                      .col-12
+                        p.mb-0 Es clave para evaluar la capacidad de pago de deudas y la sostenibilidad del negocio.
+
     
     
     
