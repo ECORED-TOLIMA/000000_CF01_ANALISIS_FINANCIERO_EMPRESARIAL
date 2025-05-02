@@ -80,18 +80,18 @@
         .col-lg-8
           .bgform.p-4
             <math display="block">
-              <mo>Variación porcentual</mo>
-              <mo>=</mo>
+              <mo class="ft">Variación porcentual</mo>
+              <mo class="ft">=</mo>
               <mrow>
                 <mo>(</mo>
                 <mfrac>
-                <mi>Valor en el periodo actual - Valor en el periodo anterior</mi>
-                <mn>Valor en el periodo anterior</mn>
+                <mi class="ft">Valor en el periodo actual - Valor en el periodo anterior</mi>
+                <mn class="ft">Valor en el periodo anterior</mn>
               </mfrac>
                 <mo>)</mo>
               </mrow>
-              <mo>x</mo>
-              <mo>100</mo>
+              <mo class="ft">x</mo>
+              <mo class="ft">100</mo>
             </math> 
     
     p.mb-4(data-aos="fade-down-right") Igualmente, se obtienen los siguientes datos: 
@@ -188,18 +188,18 @@
       .col-lg-8
         .bgform.p-4
           <math display="block">
-            <mo>Porcentaje de cada cuenta</mo>
-            <mo>=</mo>
+            <mo class="ft">Porcentaje de cada cuenta</mo>
+            <mo class="ft">=</mo>
             <mrow>
               <mo>(</mo>
               <mfrac>
-              <mi>Valor de la cuenta</mi>
-              <mn>Total Activos o Total Pasivos y Patrimonio</mn>
+              <mi class="ft">Valor de la cuenta</mi>
+              <mn class="ft">Total Activos o Total Pasivos y Patrimonio</mn>
             </mfrac>
               <mo>)</mo>
             </mrow>
-            <mo>x</mo>
-            <mo>100</mo>
+            <mo class="ft">x</mo>
+            <mo class="ft">100</mo>
           </math> 
 
     p.mb-4(data-aos="fade-down-right") #[b Para el estado de resultados:]
@@ -208,18 +208,18 @@
       .col-lg-8
         .bgform.p-4
           <math display="block">
-            <mo>Porcentaje de cada cuenta</mo>
-            <mo>=</mo>
+            <mo class="ft">Porcentaje de cada cuenta</mo>
+            <mo class="ft">=</mo>
             <mrow>
               <mo>(</mo>
               <mfrac>
-              <mi>Valor de la cuenta</mi>
-              <mn>Ingresos Totales</mn>
+              <mi class="ft">Valor de la cuenta</mi>
+              <mn class="ft">Ingresos Totales</mn>
             </mfrac>
               <mo>)</mo>
             </mrow>
-            <mo>x</mo>
-            <mo>100</mo>
+            <mo class="ft">x</mo>
+            <mo class="ft">100</mo>
           </math> 
 
     p.text-bold.mb-4(data-aos="fade-down-right") Lo anterior, se complementa con los siguientes datos:
