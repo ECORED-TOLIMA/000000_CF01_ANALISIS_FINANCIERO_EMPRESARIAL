@@ -133,7 +133,7 @@
     .row.justify-content-center.mb-3(data-aos="fade-down-right")
       .col-lg-4.col-12.mb-3.d-lg-flex.d-none
         figure
-          img(src='@/assets/curso/temas/tema1/img-05.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema1/img-05.png', alt='Imagen decorativa')
       .col-lg-8.col-12.mb-3
         AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")
           .row(titulo="Decisiones de inversión")

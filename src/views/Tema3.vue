@@ -76,17 +76,24 @@
       p(data-aos="fade-down-right") #[b Ejemplo de cálculo del cambio porcentual:]
       p.mb-2(data-aos="fade-down-right") Para calcular la variación en los ingresos de un año a otro, se usa la siguiente fórmula:
 
-    .row.justify-content-center.align-items-center.mb-4
-      .col-auto
-        p.mb-0 Variación porcentual = (
-      .col-auto
-        .fraccionario
-          span.num Valor en el periodo actual - Valor en el periodo anterior
-          span.div /
-          span.den Valor en el periodo anterior
-      .col-auto
-        p.mb-0 ) x 100
-  
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-8
+          .bgform.p-4
+            <math display="block">
+              <mo>Variación porcentual</mo>
+              <mo>=</mo>
+              <mrow>
+                <mo>(</mo>
+                <mfrac>
+                <mi>Valor en el periodo actual - Valor en el periodo anterior</mi>
+                <mn>Valor en el periodo anterior</mn>
+              </mfrac>
+                <mo>)</mo>
+              </mrow>
+              <mo>x</mo>
+              <mo>100</mo>
+            </math> 
+    
     p.mb-4(data-aos="fade-down-right") Igualmente, se obtienen los siguientes datos: 
 
     .row.justify-content-center.mb-5
@@ -98,10 +105,10 @@
           table(data-aos="zoom-in"  alt="En la tabla 2, se presentan ejemplos de metas aplicadas a un proyecto turístico en Colombia, destacando su alineación con objetivos estratégicos como sostenibilidad, desarrollo de infraestructura, promoción del destino y beneficio para la comunidad local.")
             thead
               tr(data-aos="fade-right")
-                th(style="background-color: #BFC9FF; width: 25%; font-size: 18px;") CONCEPTO
-                th(style="background-color: #BFC9FF; width: 25%; font-size: 18px;") AÑO 1
-                th(style="background-color: #BFC9FF; width: 25%; font-size: 18px;") AÑO 2
-                th(style="background-color: #BFC9FF; width: 25%; font-size: 18px;") VARIACIÓN (%)
+                th CONCEPTO
+                th AÑO 1
+                th AÑO 2
+                th VARIACIÓN (%)
             tbody
               tr(data-aos="fade-right")
                 td #[b Ingresos]
@@ -135,7 +142,7 @@
         p Además, este tipo de análisis es una herramienta clave en la toma de decisiones gerenciales, ya que facilita la identificación de áreas donde se pueden optimizar recursos, reducir costos o mejorar la rentabilidad de la empresa.
 
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
-        img(src='@/assets/curso/temas/tema3/img-06.svg' alt="Imagen decorativa")
+        img(src='@/assets/curso/temas/tema3/img-06.png' alt="Imagen decorativa")
 
     p.mb-5(data-aos="fade-down-right") Como características del análisis vertical, se pueden encontrar las siguientes:
     
@@ -177,32 +184,45 @@
     p.mb-5(data-aos="fade-down-right") Cada cuenta se expresa como un porcentaje del total del activo o del pasivo y patrimonio en el estado de situación financiera (balance general) o también puede expresar qué porcentaje representa una cuenta del estado de resultados del total de ingresos, utilizando las siguientes fórmulas:
 
     p.mb-4(data-aos="fade-down-right") Para el estado de situación financiera (balance general):
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-8
+        .bgform.p-4
+          <math display="block">
+            <mo>Porcentaje de cada cuenta</mo>
+            <mo>=</mo>
+            <mrow>
+              <mo>(</mo>
+              <mfrac>
+              <mi>Valor de la cuenta</mi>
+              <mn>Total Activos o Total Pasivos y Patrimonio</mn>
+            </mfrac>
+              <mo>)</mo>
+            </mrow>
+            <mo>x</mo>
+            <mo>100</mo>
+          </math> 
 
-    .row.justify-content-center.align-items-center.mb-4
-      .col-auto
-        p.mb-0 Porcentaje de cada cuenta = (
-      .col-auto
-        .fraccionario
-          span.num Valor de la cuenta
-          span.div /
-          span.den Total Activos o Total Pasivos y Patrimonio
-      .col-auto
-        p.mb-0 ) x 100
+    p.mb-4(data-aos="fade-down-right") #[b Para el estado de resultados:]
 
-    p.mb-4(data-aos="fade-down-right") Para el estado de resultados:
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-8
+        .bgform.p-4
+          <math display="block">
+            <mo>Porcentaje de cada cuenta</mo>
+            <mo>=</mo>
+            <mrow>
+              <mo>(</mo>
+              <mfrac>
+              <mi>Valor de la cuenta</mi>
+              <mn>Ingresos Totales</mn>
+            </mfrac>
+              <mo>)</mo>
+            </mrow>
+            <mo>x</mo>
+            <mo>100</mo>
+          </math> 
 
-    .row.justify-content-center.align-items-center.mb-4
-      .col-auto
-        p.mb-0 Porcentaje de cada cuenta = (
-      .col-auto
-        .fraccionario
-          span.num Valor de la cuenta
-          span.div /
-          span.den Ingresos Totales
-      .col-auto
-        p.mb-0 ) x 100
-
-    p.mb-4(data-aos="fade-down-right") Lo anterior, se complementa con los siguientes datos:
+    p.text-bold.mb-4(data-aos="fade-down-right") Lo anterior, se complementa con los siguientes datos:
 
     .row.justify-content-center.mb-0
       .col-lg-10
@@ -259,9 +279,9 @@
           table(data-aos="zoom-in"  alt="En la tabla 2, se presentan ejemplos de metas aplicadas a un proyecto turístico en Colombia, destacando su alineación con objetivos estratégicos como sostenibilidad, desarrollo de infraestructura, promoción del destino y beneficio para la comunidad local.")
             thead
               tr(data-aos="fade-right")
-                th(style="background-color: #BFC9FF; width: 25%; font-size: 18px;") Análisis vertical
-                th(style="background-color: #BFC9FF; width: 25%; font-size: 18px;") Característica
-                th(style="background-color: #BFC9FF; width: 25%; font-size: 18px;") Análisis horizontal
+                th Análisis vertical
+                th Característica
+                th Análisis horizontal
             tbody
               tr(data-aos="fade-right")
                 td #[b Enfoque]
