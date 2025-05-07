@@ -77,7 +77,10 @@
       p.mb-2(data-aos="fade-down-right") Para calcular la variación en los ingresos de un año a otro, se usa la siguiente fórmula:
 
       .row.justify-content-center.align-items-center.mb-5
-        .col-lg-8
+        .col-lg-8.movil
+          .bgform.p-4
+            p #[b Variación porcentual = (Valor en el periodo actual - Valor en el periodo anterior / Valor en el periodo anterior) x 100]
+        .col-lg-8.desktop
           .bgform.p-4
             <math display="block">
               <mo class="ft">Variación porcentual</mo>
@@ -185,7 +188,10 @@
 
     p.mb-4(data-aos="fade-down-right") Para el estado de situación financiera (balance general):
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-8
+      .col-lg-8.movil
+        .bgform.p-4
+          p #[b Porcentaje de cada cuenta = (Valor de la cuenta / Total Activos o Total Pasivos y Patrimonio) × 100]
+      .col-lg-8.desktop
         .bgform.p-4
           <math display="block">
             <mo class="ft">Porcentaje de cada cuenta</mo>
@@ -205,7 +211,10 @@
     p.mb-4(data-aos="fade-down-right") #[b Para el estado de resultados:]
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-8
+      .col-lg-8.movil
+        .bgform.p-4
+          p #[b Porcentaje de cada cuenta=(Valor de la cuenta / Ingresos Totales) x 100]
+      .col-lg-8.desktop
         .bgform.p-4
           <math display="block">
             <mo class="ft">Porcentaje de cada cuenta</mo>
@@ -233,9 +242,9 @@
           table(data-aos="zoom-in"  alt="En la tabla 2, se presentan ejemplos de metas aplicadas a un proyecto turístico en Colombia, destacando su alineación con objetivos estratégicos como sostenibilidad, desarrollo de infraestructura, promoción del destino y beneficio para la comunidad local.")
             thead
               tr(data-aos="fade-right")
-                th(style="background-color: #FBE3FF; width: 25%; font-size: 18px;") CONCEPTO
-                th(style="background-color: #FBE3FF; width: 25%; font-size: 18px;") VALOR
-                th(style="background-color: #FBE3FF; width: 25%; font-size: 18px;") % VALOR DEL ACTIVO
+                th CONCEPTO
+                th VALOR
+                th % VALOR DEL ACTIVO
             tbody
               tr(data-aos="fade-right")
                 td #[b Activos corrientes]
@@ -360,8 +369,6 @@
         .bloque-texto-b.color-primario.py-4
           .bloque-texto-b__texto
             p.mb-0 En resumen, el dominio y la aplicación efectiva del análisis horizontal y vertical, no solo contribuyen al conocimiento profundo de la situación financiera de la empresa, sino que también optimizan el proceso de toma de decisiones, minimizan riesgos y maximizan las oportunidades de crecimiento y expansión sostenible. Este enfoque integral y dinámico es crucial para los empresarios y analistas financieros en su búsqueda de soluciones efectivas a los desafíos del entorno económico.
-
-
 
 </template>
 
