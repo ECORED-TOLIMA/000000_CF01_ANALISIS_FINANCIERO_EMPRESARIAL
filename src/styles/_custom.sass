@@ -220,7 +220,7 @@ figcaption
   &.crd--grayGrad_2
     padding: 2rem
     height: 100%
-    background-image: url('../assets/curso/fondos/BG09.svg')
+    background-image: url('../assets/curso/fondos/fondo-tarjeta1.png')
     background-size: cover
     background-repeat: no-repeat
     background-position: center
@@ -229,13 +229,13 @@ figcaption
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
     &:hover      
       background: linear-gradient(180deg, rgba(25,137,226,1) 0%, rgba(10,81,139,1) 100%)  
-      background-image: url('../assets/curso/fondos/BG04.svg')
+      background-image: url('../assets/curso/fondos/fondo-tarjeta2.png')
       background-size: cover
       background-repeat: no-repeat
       background-position: center
       .bottomCircle_2
         &::before
-          background-color: $white
+          background-color: #D4E157
 
 .bottomCircle_2
   position: relative
@@ -398,7 +398,7 @@ div.formulas img
 .tabla-a
   table
     thead
-      background-color: #BFC9FF !important
+      background-color: #FBE3FF !important
 .ft
   font-family: 'Roboto'
 
@@ -413,3 +413,44 @@ div.formulas img
     display: inline
   .desktop 
     display: none
+
+////////// Estilo de tarjeta que cambia de color y fondo -------------------
+
+.img90
+  width: 70px 
+
+.crd
+  &.crd--grayGrad_3
+    padding: 2rem
+    height: 100%
+    background-image: url('../assets/curso/fondos/fondo-tarjetav1.png')
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center
+    height: 100%
+    border-radius: 15px    
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+    &:hover      
+      background: linear-gradient(180deg, rgba(25,137,226,1) 0%, rgba(10,81,139,1) 100%)  
+      background-image: url('../assets/curso/fondos/fondo-tarjetav2.png')
+      background-size: cover
+      background-repeat: no-repeat
+      background-position: center
+      .bottomCircle_3
+        &::before
+          background-color: $white
+
+.bottomCircle_3
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+    width: 115px
+    height: 115px
+    background-color: #7B1FA2
+    border-radius: 999px

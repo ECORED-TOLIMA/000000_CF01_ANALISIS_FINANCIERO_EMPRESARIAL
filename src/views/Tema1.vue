@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido(data-aos="fade-right")
       .titulo-principal__numero
         span 1
-      h1 Introducción al análisis financiero y su importancia en las organizaciones
+      h1 Fundamentos del análisis financiero
 
     .row.justify-content-center.mb-5
       .col-12(data-aos="fade-up")
@@ -22,21 +22,22 @@
 
     p.mb-5(data-aos="fade-left") El análisis financiero es un conjunto de técnicas y herramientas utilizadas para evaluar la situación económica de una empresa, permitiendo la toma de decisiones estratégicas fundamentadas. Su propósito principal es interpretar la información contenida en los estados financieros para diagnosticar la rentabilidad, liquidez, solvencia y eficiencia operativa de una organización.
 
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-down-right")(style="background-color:#B0BDA0") 
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-0(data-aos="fade-down-right")(style="background-color:#B0BDA0") 
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-03.png')})`}"
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 Desde una perspectiva más técnica, Ortiz (2011) define el análisis financiero como el proceso mediante el cual se examinan los datos contables y financieros, con el fin de evaluar la gestión de la empresa y proyectar su desempeño futuro. Para ello, se emplean métodos como la lectura horizontal y vertical de los estados financieros, así como el cálculo de indicadores clave (KPI) de desempeño financiero.
 
-    .titulo1.mb-5(data-aos="zoom-in")
-      img(src='@/assets/curso/temas/icono.svg', alt='Imagen decorativa')
-      h4.mb-0 Objetivos del análisis financiero
+    Separador
+
+    .titulo-segundo.color-acento-contenido
+      h2#t_1_2 1.2 Objetivos del análisis financiero
 
     p(data-aos="fade-down-right") A través del análisis financiero, es posible identificar tendencias, riesgos y oportunidades, lo que contribuye a la optimización de recursos y al fortalecimiento de la posición competitiva de la empresa en el mercado. Además, permite comparar el desempeño financiero con estándares del sector y con periodos anteriores, lo que ayuda a detectar posibles áreas de mejora y a diseñar estrategias de crecimiento sostenible.
     p.mb-5(data-aos="fade-down-right") Adicionalmente, el análisis financiero cumple diversos objetivos dentro de la gestión empresarial, entre los cuales se destacan: 
 
-    .row.justify-content-center.mb-4(data-aos="flip-up")
+    .row.justify-content-center.mb-0(data-aos="flip-up")
       .col-lg-6.mb-3
         .tarjeta-avatar-b.h-100
           .tarjeta-avatar-b__img
@@ -83,13 +84,14 @@
               p Con base en los resultados obtenidos, es posible realizar pronósticos financieros y planificar estrategias para garantizar el crecimiento sostenible de la organización.
 
     Separador
+    
     .titulo-segundo.color-acento-contenido
-      h2#t_1_2 1.2 Importancia del análisis financiero en las organizaciones
+      h2#t_1_3 1.3 Importancia del análisis financiero en las organizaciones
     
     .row.fondo2-t2.justify-content-center.align-items-center.py-3.px-lg-5.px-4.ordenar_tarjeta.mb-4(data-aos="zoom-in")
       p.mb-5(data-aos="fade-left") El análisis financiero es una herramienta fundamental para la gestión empresarial, ya que permite anticipar riesgos, aprovechar oportunidades y optimizar los recursos financieros disponibles. En un entorno económico dinámico y competitivo, su aplicación contribuye a la toma de decisiones acertadas y al fortalecimiento de la sostenibilidad de las empresas.
 
-      .col-lg-6.order-lg-1.order-2.mb-5(data-aos="fade-right")
+      .col-lg-6.order-lg-1.order-2.mb-0(data-aos="fade-right")
         p El análisis financiero es una herramienta esencial en la gestión empresarial, ya que permite evaluar la situación económica de una organización y fundamentar decisiones estratégicas. De acuerdo con Ortiz (2011), su aplicación facilita la identificación de riesgos y oportunidades, optimizando la asignación de recursos y asegurando la sostenibilidad del negocio en el tiempo.
         p Las decisiones empresariales deben estar respaldadas por información objetiva y precisa. En este sentido, el análisis financiero proporciona una visión integral del desempeño organizacional, permitiendo responder preguntas clave como:
         
@@ -119,294 +121,9 @@
     Separador
 
     .titulo-segundo.color-acento-contenido
-      h2#t_1_3 1.3 Aplicaciones del análisis financiero en la toma de decisiones
+      h2#t_1_4 1.4 Beneficios y limitaciones del análisis financiero
     
     p.mb-5(data-aos="fade-down-right") El análisis financiero es una herramienta esencial para la toma de decisiones estratégicas dentro de una organización. A través del estudio detallado de los estados financieros y el uso de diversos indicadores, es posible obtener información valiosa sobre la economía de la empresa, su capacidad para generar utilidades y su sostenibilidad a largo plazo.
-
-    .row.justify-content-center.mb-5
-      .col-lg-8(data-aos="fade-right")
-        .cajon.color-primario.p-4
-          p.mb-0 Este proceso permite evaluar distintos escenarios y alternativas que afectan el desempeño financiero, brindando soporte en la planificación y ejecución de estrategias empresariales. Desde la evaluación de inversiones, hasta la gestión de riesgos, el análisis financiero proporciona una base objetiva para optimizar recursos y mejorar la rentabilidad.
-
-    p.mb-5(data-aos="fade-down-right") A continuación, se presentan las principales decisiones que pueden tomarse a partir del análisis financiero: 
-    
-    .row.justify-content-center.mb-3(data-aos="fade-down-right")
-      .col-lg-4.col-12.mb-3.d-lg-flex.d-none
-        figure
-          img(src='@/assets/curso/temas/tema1/img-05.png', alt='Imagen decorativa')
-      .col-lg-8.col-12.mb-3
-        AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")
-          .row(titulo="Decisiones de inversión")
-            .col-md-12.mb-4.mb-md-0
-              p Permite evaluar la viabilidad de proyectos de inversión, analizando indicadores como el Retorno Sobre la Inversión (ROI) y el Valor Presente Neto (VPN). Con esta información, se puede determinar si una inversión generará beneficios a largo plazo.
-
-          .row(titulo="Decisiones de financiamiento")
-            .col-md-12.mb-4.mb-md-0
-              p Ayuda a definir la mejor estructura de capital para la empresa, evaluando la conveniencia de obtener recursos, a través de deuda o capital propio. Factores como la tasa de interés, el costo de capital y la capacidad de pago, son analizados para minimizar riesgos financieros.
-
-          .row(titulo="Decisiones operativas")
-            .col-md-12.mb-4.mb-md-0
-              p Facilita la optimización de costos y gastos, mejorando la eficiencia en el uso de los recursos. A través del análisis financiero, se pueden identificar áreas donde la empresa puede reducir costos, sin afectar la calidad de sus productos o servicios.
-    
-          .row(titulo="Decisiones de crecimiento y expansión")
-            .col-md-12.mb-4.mb-md-0
-              p Con base en la evaluación de la rentabilidad y la capacidad de generación de flujo de caja, se pueden tomar decisiones sobre la apertura de nuevas sucursales, la diversificación de productos o la incursión en nuevos mercados.
-          
-          .row(titulo="Gestión de riesgos financieros")
-            .col-md-12.mb-4.mb-md-0
-              p Permite anticipar y mitigar riesgos asociados a la volatilidad del mercado, fluctuaciones en las tasas de interés, inflación y cambios en el entorno económico.
-    
-    Separador
-
-    .titulo-segundo.color-acento-contenido
-      h2#t_1_4 1.4 Usuarios del análisis financiero: internos y externos
-    
-    p.mb-5(data-aos="fade-down-right") El análisis financiero es una herramienta fundamental para la toma de decisiones en una organización y su utilidad se extiende a distintos grupos de interés. Retomando a Ortiz (2011), los usuarios del análisis financiero se pueden clasificar en internos y externos, dependiendo de su relación con la empresa y los objetivos que buscan con la información financiera.
-
-    .titulo1.mb-5(data-aos="zoom-in")
-      img(src='@/assets/curso/temas/icono.svg', alt='Imagen decorativa')
-      h4.mb-0 Usuarios internos del análisis financiero
-
-    p.mb-5(data-aos="fade-down-right") Son aquellos que forman parte de la empresa y utilizan la información financiera para la gestión y planificación estratégica. Dentro de este grupo se encuentran:
-
-    .tarjeta.BGIMG01.mb-5(data-aos="fade-left")
-      .p-4.p-lg-5
-        SlyderA(tipo="b")
-          .row.justify-content-center.align-items-center
-            .col-lg-6.order-lg-1.order-2
-              .h4 Alta dirección y gerencia
-              p Utiliza el análisis financiero para tomar decisiones estratégicas, evaluar el desempeño de la empresa y establecer planes de crecimiento.
-              p.mb-0 Se apoya en indicadores financieros para definir presupuestos, estrategias de inversión y expansión.
-            .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-              figure
-                img(src='@/assets/curso/temas/tema1/img-06.png' style="width: 500px" ,alt='').m-auto
-          
-          .row.justify-content-center.align-items-center
-            .col-lg-6.order-lg-1.order-2
-              .h4 Áreas contables y financieras
-              p Evalúan la salud financiera de la empresa, preparando reportes para la gerencia y asegurando el cumplimiento de normativas contables.
-              p.mb-0 Analizan la rentabilidad, la liquidez y la eficiencia operativa para optimizar los recursos disponibles.
-            .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-              figure
-                img(src='@/assets/curso/temas/tema1/img-07.png' style="width: 500px" ,alt='').m-auto
-          
-          .row.justify-content-center.align-items-center
-            .col-lg-6.order-lg-1.order-2
-              .h4 Propietarios y accionistas
-              p Buscan conocer la rentabilidad y sostenibilidad de la empresa para tomar decisiones sobre nuevas inversiones o distribución de dividendos.
-              p.mb-0 Evalúan el desempeño financiero para determinar la viabilidad de reinvertir en el negocio o realizar ajustes estratégicos.
-            .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-              figure
-                img(src='@/assets/curso/temas/tema1/img-08.png' style="width: 500px" ,alt='').m-auto
-          
-          .row.justify-content-center.align-items-center
-            .col-lg-6.order-lg-1.order-2
-              .h4 Áreas operativas y comerciales
-              p Necesitan información financiera para optimizar costos, mejorar la productividad y definir estrategias de ventas.
-              p.mb-0 Analizan los márgenes de ganancia y costos operativos para hacer ajustes en la producción o en la oferta de productos y servicios.
-            .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-              figure
-                img(src='@/assets/curso/temas/tema1/img-09.png' style="width: 500px" ,alt='').m-auto
-       
-    .titulo1.mb-5(data-aos="zoom-in")
-      img(src='@/assets/curso/temas/icono.svg', alt='Imagen decorativa')
-      h4.mb-0 Usuarios externos del análisis financiero
-
-    p.mb-5(data-aos="fade-down-right") Son agentes fuera de la organización que requieren información financiera para evaluar la solidez y estabilidad de la empresa. Entre ellos se encuentran:
-
-    SlyderF.mb-5(columnas="col-lg-4" data-aos="fade-right")
-      .tarjeta.BGIMG02.p-4
-        .row.justify-content-center.mb-4
-          .col-8
-            img(src='@/assets/curso/temas/tema1/icono-06.svg' alt="Imagen decorativa")
-        .h4 Entidades financieras y prestamistas
-        p Bancos e inversionistas analizan los estados financieros para evaluar la capacidad de pago de la empresa, antes de otorgar créditos o financiamiento.
-        p.mb-0 Se enfocan en indicadores como el nivel de endeudamiento, la liquidez y el flujo de caja.
-      .tarjeta.BGIMG02.p-4
-        .row.justify-content-center.mb-4
-          .col-8
-            img(src='@/assets/curso/temas/tema1/icono-07.svg' alt="Imagen decorativa")
-        .h4 Proveedores y acreedores
-        p Evalúan la solidez financiera de la empresa, para determinar si es confiable otorgarle crédito comercial.
-        p.mb-0 Analizan la rotación de cuentas por pagar y la liquidez para medir la capacidad de cumplimiento de obligaciones.
-      .tarjeta.BGIMG02.p-4
-        .row.justify-content-center.mb-4
-          .col-8
-            img(src='@/assets/curso/temas/tema1/icono-08.svg' alt="Imagen decorativa")
-        .h4 Inversionistas potenciales
-        p Buscan conocer la rentabilidad y estabilidad de la empresa antes de decidir si invierten en ella.
-        p.mb-0 Se enfocan en indicadores como el retorno sobre la inversión (ROI), el margen de utilidad y el crecimiento financiero.
-      .tarjeta.BGIMG02.p-4
-        .row.justify-content-center.mb-4
-          .col-8
-            img(src='@/assets/curso/temas/tema1/icono-09.svg' alt="Imagen decorativa")
-        .h4 Entidades gubernamentales y organismos reguladores
-        p Utilizan el análisis financiero para verificar el cumplimiento de normativas contables, fiscales y laborales. 
-        p.mb-0 Evalúan la transparencia y veracidad de la información financiera para garantizar la legalidad de las operaciones. 
-      .tarjeta.BGIMG02.p-4
-        .row.justify-content-center.mb-4
-          .col-8
-            img(src='@/assets/curso/temas/tema1/icono-10.svg' alt="Imagen decorativa")
-        .h4 Clientes y socios estratégicos
-        p Pueden revisar la información financiera de una empresa, para evaluar su estabilidad y confiabilidad como proveedor o aliado comercial.
-        p.mb-0 Empresas que firman contratos a largo plazo necesitan asegurarse de la solvencia de sus socios.
-          
-    .row.justify-content-center.mb-5(data-aos="fade-down-right")
-      .col-10
-        p.mb-4 #[b Rol del análisis financiero en la gestión empresarial]
-        .bloque-texto-b.color-primario.py-4
-          .bloque-texto-b__texto
-            p.mb-5(data-aos="fade-left") El análisis financiero es una herramienta clave en la gestión empresarial, ya que proporciona información objetiva sobre la situación económica de una organización, permitiendo tomar decisiones estratégicas fundamentadas. Según Ortiz (2011), su papel dentro de la empresa, se extiende a diversas áreas, incluyendo la planificación, el control y la optimización de los recursos.
-
-    Separador
-
-    .titulo-segundo.color-acento-contenido
-      h2#t_1_5 1.5 Apoyo en la toma de decisiones estratégicas
-
-    p.mb-5(data-aos="fade-down-right") Las empresas requieren información financiera precisa para establecer planes de crecimiento, evaluar riesgos y determinar inversiones. El análisis financiero permite:
-
-    .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
-      .col-lg-10.col-12
-        .tarjeta.tarjeta--gris2.p-2
-          .row.justify-content-center.align-items-center
-            .col-4.d-none.d-lg-block.order-lg-2.order-2.mb-lg-0
-              figure
-                img(src='@/assets/curso/temas/tema1/img-10.svg', alt='Imagen decorativa')
-            .col-lg-6.col-12.mb-3.order-lg-1.order-2.mb-lg-0.p-4
-              ul.lista-ul.mb-0
-                li.mb-0
-                  i.fas.fa-check(style="color:#BAC36A")
-                  p.mb-0 Identificar oportunidades de expansión y diversificación.
-
-                li.mb-0
-                  i.fas.fa-check(style="color:#BAC36A")
-                  | Evaluar la rentabilidad de nuevos proyectos o líneas de negocio.
-
-                li.mb-0
-                  i.fas.fa-check(style="color:#BAC36A")
-                  | Establecer estrategias para mejorar la eficiencia operativa y reducir costos.
-
-    p.mb-5(data-aos="fade-down-right") Por ejemplo, una empresa que evalúa la viabilidad de abrir una nueva sucursal, utilizará indicadores financieros como la rentabilidad esperada, el flujo de caja y el costo del financiamiento antes de tomar una decisión.
-
-    .titulo1.mb-5(data-aos="zoom-in")
-      img(src='@/assets/curso/temas/icono.svg', alt='Imagen decorativa')
-      h4.mb-0 Evaluación de la rentabilidad y sostenibilidad
-
-    p.mb-5(data-aos="fade-down-right") Un aspecto fundamental de la gestión empresarial es asegurar la sostenibilidad del negocio en el tiempo. A través del análisis financiero, se puede:
-
-    .row.justify-content-center.mb-5(data-aos="flip-up")
-      .col-xl-4.col-lg-8.mb-4.mb-xl-5
-        .crd.crd--grayGrad(data-aos="flip-left")
-          .bottomCircle.mb-5
-            figure
-              img(src="@/assets/curso/temas/tema1/icono-11.svg", alt="alt").img90.m-auto
-          p.mb-0 Medir la rentabilidad de la empresa mediante indicadores como el ROE (Return on Equity) y el ROA (Return on Assets).
-      .col-xl-4.col-lg-8.mb-4.mb-xl-5
-        .crd.crd--grayGrad(data-aos="flip-left")
-          .bottomCircle.mb-5
-            figure
-              img(src="@/assets/curso/temas/tema1/icono-12.svg", alt="alt").img90.m-auto
-          p.mb-0 Identificar factores que afectan la rentabilidad, como costos operativos elevados o una baja rotación de inventarios.
-      .col-xl-4.col-lg-8.mb-4.mb-xl-5
-        .crd.crd--grayGrad(data-aos="flip-left")
-          .bottomCircle.mb-5
-            figure
-              img(src="@/assets/curso/temas/tema1/icono-13.svg", alt="alt").img90.m-auto
-          p.mb-0 Determinar si los ingresos generados son suficientes para cubrir los costos y generar utilidades sostenibles.
-
-    .titulo1.mb-5(data-aos="zoom-in")
-      img(src='@/assets/curso/temas/icono.svg', alt='Imagen decorativa')
-      h4.mb-0 Gestión del riesgo financiero
-
-    p.mb-5(data-aos="fade-down-right") Toda empresa está expuesta a riesgos financieros que pueden afectar su estabilidad. El análisis financiero ayuda a:
-
-    .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
-      .col-lg-10.col-12
-        .tarjeta.tarjeta--gris2.p-2
-          .row.justify-content-center.align-items-center
-            .col-4.d-none.d-lg-block.order-lg-2.order-2.mb-lg-0
-              figure
-                img(src='@/assets/curso/temas/tema1/img-11.svg', alt='Imagen decorativa')
-            .col-lg-6.col-12.mb-3.order-lg-1.order-2.mb-lg-0.p-4
-              ul.lista-ul.mb-0
-                li.mb-0
-                  i.fas.fa-check(style="color:#BAC36A")
-                  p.mb-0 Identificar riesgos de liquidez, asegurando que la empresa pueda cumplir con sus obligaciones de corto plazo.
-
-                li.mb-0
-                  i.fas.fa-check(style="color:#BAC36A")
-                  | Evaluar el endeudamiento y su impacto en la estabilidad financiera.
-
-                li.mb-0
-                  i.fas.fa-check(style="color:#BAC36A")
-                  | Prever posibles crisis financieras y tomar medidas correctivas a tiempo.
-
-    p.mb-5(data-aos="fade-down-right") Por ejemplo, una empresa con un alto nivel de endeudamiento puede utilizar el índice de cobertura de intereses, para determinar si tiene la capacidad de pagar su deuda sin comprometer su operación.
-    
-    .titulo1.mb-5(data-aos="zoom-in")
-      img(src='@/assets/curso/temas/icono.svg', alt='Imagen decorativa')
-      h4.mb-0 Optimización del uso de los recursos
-
-    p.mb-5(data-aos="fade-down-right") La gestión eficiente de los recursos financieros permite mejorar la productividad y la competitividad de la empresa. El análisis financiero contribuye a:
-
-    .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
-      .col-lg-10.col-12
-        .tarjeta.tarjeta--gris2.p-2
-          .row.justify-content-center.align-items-center
-            .col-4.d-none.d-lg-block.order-lg-2.order-2.mb-lg-0
-              figure
-                img(src='@/assets/curso/temas/tema1/img-12.svg', alt='Imagen decorativa')
-            .col-lg-6.col-12.mb-3.order-lg-1.order-2.mb-lg-0.p-4
-              ul.lista-ul.mb-0
-                li.mb-0
-                  i.fas.fa-check(style="color:#BAC36A")
-                  p.mb-0 Identificar áreas de la empresa donde se pueden reducir costos sin afectar la calidad.
-
-                li.mb-0
-                  i.fas.fa-check(style="color:#BAC36A")
-                  | Optimizar la gestión del capital de trabajo, asegurando un equilibrio entre cuentas por cobrar, inventarios y cuentas por pagar.
-
-                li.mb-0
-                  i.fas.fa-check(style="color:#BAC36A")
-                  | Determinar estrategias para mejorar la eficiencia operativa y maximizar los beneficios.
-
-    p.mb-5(data-aos="fade-down-right") Un caso común es el análisis del ciclo de conversión de efectivo, que permite a las empresas gestionar mejor sus flujos de caja y evitar problemas de liquidez.
-
-    .titulo1.mb-5(data-aos="zoom-in")
-      img(src='@/assets/curso/temas/icono.svg', alt='Imagen decorativa')
-      h4.mb-0 Medición del desempeño financiero
-
-    p.mb-5(data-aos="fade-down-right") El análisis financiero es esencial para evaluar el cumplimiento de los objetivos organizacionales. A través del uso de indicadores de gestión, la empresa puede:
-
-    .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
-      .col-lg-10.col-12
-        .tarjeta.tarjeta--gris2.p-2
-          .row.justify-content-center.align-items-center
-            .col-4.d-none.d-lg-block.order-lg-2.order-2.mb-lg-0
-              figure
-                img(src='@/assets/curso/temas/tema1/img-13.svg', alt='Imagen decorativa')
-            .col-lg-6.col-12.mb-3.order-lg-1.order-2.mb-lg-0.p-4
-              ul.lista-ul.mb-0
-                li.mb-0
-                  i.fas.fa-check(style="color:#BAC36A")
-                  p.mb-0 Comparar su desempeño con períodos anteriores o con empresas del mismo sector.
-
-                li.mb-0
-                  i.fas.fa-check(style="color:#BAC36A")
-                  | Establecer metas financieras realistas y monitorear su progreso.
-
-                li.mb-0
-                  i.fas.fa-check(style="color:#BAC36A")
-                  | Implementar acciones correctivas en caso de desviaciones en los resultados esperados.
-
-    p.mb-5(data-aos="fade-down-right") El uso de herramientas como el análisis horizontal y vertical, junto con indicadores como el margen de utilidad y el EBITDA, permite obtener una visión clara del desempeño de la empresa y su evolución a lo largo del tiempo.
-
-    Separador
-    
-    .titulo-segundo.color-acento-contenido
-      h2#t_1_6 1.6  Beneficios y limitaciones del análisis financiero
-    
-    p.mb-5(data-aos="fade-down-right") El análisis financiero es una herramienta fundamental para evaluar la situación económica de una empresa, facilitando la toma de decisiones estratégicas. Sin embargo, aunque ofrece múltiples ventajas, también presenta ciertas limitaciones que deben ser consideradas al momento de interpretar los resultados.
 
     .titulo1.mb-5(data-aos="zoom-in")
       img(src='@/assets/curso/temas/icono.svg', alt='Imagen decorativa')

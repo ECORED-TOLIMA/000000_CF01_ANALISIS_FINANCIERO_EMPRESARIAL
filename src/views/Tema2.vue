@@ -5,423 +5,296 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Principios de contabilidad aplicados al análisis financiero
+      h1 Usuarios del análisis financiero y toma de decisiones
 
     .row.justify-content-center.mb-5
       .col-12(data-aos="fade-up")
         figure
           img(src='@/assets/curso/temas/tema2/img-01.png', alt='')
 
-    p.mb-5(data-aos="fade-down-right")  Para llevar a cabo un análisis financiero preciso, es fundamental comprender los principios contables básicos que rigen la preparación de los estados financieros. Entre ellos se destacan:
+    p.mb-4(data-aos="fade-down-right") El análisis financiero es una herramienta fundamental para la toma de decisiones en una organización y su utilidad se extiende a distintos grupos de interés. Retomando a Ortiz (2011), los usuarios del análisis financiero se pueden clasificar en internos y externos, dependiendo de su relación con la empresa y los objetivos que buscan con la información financiera.
 
-    .row.mb-5(data-aos="flip-up")
-      .col-md-6.col-lg.tarjeta--tabla.p-4(style="background-color:#F1F8E9")
-        .row.justify-content-center.mb-3
-          .col-4
-            img(src='@/assets/curso/temas/tema2/icono-01.svg' alt='AvatarTop')
-        h4.text-center Principio de empresa en marcha
-        p.text-center Se asume que la empresa continuará operando en el futuro previsible.
-      .col-md-6.col-lg.tarjeta--tabla1.p-4(style="background-color:#E5E9FE")
-        .row.justify-content-center.mb-3
-          .col-4
-            img(src='@/assets/curso/temas/tema2/icono-02.svg' alt='AvatarTop')
-        h4.text-center Principio de causación
-        p.text-center Los ingresos y gastos se reconocen en el momento en que ocurren, no cuando se recibe o paga efectivo.
-      .col-md-6.col-lg.tarjeta--tabla.p-4(style="background-color:#F1F8E9")
-        .row.justify-content-center.mb-3
-          .col-4
-            img(src='@/assets/curso/temas/tema2/icono-03.svg' alt='AvatarTop')
-        h4.text-center Principio de uniformidad
-        p.text-center La empresa debe mantener los mismos criterios contables a lo largo del tiempo para garantizar comparabilidad.
-      .col-md-6.col-lg.tarjeta--tabla1.p-4(style="background-color:#E5E9FE")
-        .row.justify-content-center.mb-3
-          .col-4
-            img(src='@/assets/curso/temas/tema2/icono-04.svg' alt='AvatarTop')
-        h4.text-center Principio de prudencia
-        p.text-center Se debe ser conservador en la estimación de ingresos y gastos para evitar sobrevaloraciones.
-
-    p.mb-5(data-aos="fade-down-right")  Estos principios garantizan que la información contable refleje fielmente la situación financiera de la organización.
-
-    .titulo1.mb-5(data-aos="zoom-in")
+    .titulo1.mb-4(data-aos="zoom-in")
       img(src='@/assets/curso/temas/icono.svg', alt='Imagen decorativa')
-      h4.mb-0 Impacto en la interpretación de los estados financieros
+      h4.mb-0 Usuarios internos del análisis financiero
 
-    p.mb-5(data-aos="fade-down-right")  Los principios contables afectan directamente la manera en que se presentan y analizan los estados financieros, determinando la confiabilidad y precisión de los informes. Su impacto puede percibirse en los siguientes aspectos:
+    p.mb-5 Son aquellos que forman parte de la empresa y utilizan la información financiera para la gestión y planificación estratégica. Dentro de este grupo se encuentran:
+
+    .tarjeta.tarjeta--BG02.p-md-5.p-4.mb-5(data-aos="flip-up")
+      SlyderA(tipo="b")
+        .row.justify-content-center.p-4
+          .col-lg-6.order-lg-1.order-2
+            h4 Alta dirección y gerencia
+            p.mb-3 Utiliza el análisis financiero para tomar decisiones estratégicas, evaluar el desempeño de la empresa y establecer planes de crecimiento.
+            p Se apoya en indicadores financieros para definir presupuestos, estrategias de inversión y expansión.
+          .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
+            figure
+              img(src='@/assets/curso/temas/tema2/img-06.png', alt='Imagen decorativa')
+        
+        .row.justify-content-center.p-4
+          .col-lg-6.order-lg-1.order-2
+            h4 Áreas contables y financieras
+            p.mb-3 Evalúan la salud financiera de la empresa, preparando reportes para la gerencia y asegurando el cumplimiento de normativas contables.
+            p Analizan la rentabilidad, la liquidez y la eficiencia operativa para optimizar los recursos disponibles.
+          .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
+            figure
+              img(src='@/assets/curso/temas/tema2/img-07.png', style="width: 450px" ,alt='').m-auto
+        
+        .row.justify-content-center.p-4
+          .col-lg-6.order-lg-1.order-2
+            h4 Propietarios y accionistas
+            p.mb-3 Buscan conocer la rentabilidad y sostenibilidad de la empresa para tomar decisiones sobre nuevas inversiones o distribución de dividendos.
+            p Evalúan el desempeño financiero para determinar la viabilidad de reinvertir en el negocio o realizar ajustes estratégicos.
+          .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
+            figure
+              img(src='@/assets/curso/temas/tema2/img-08.png', style="width: 450px" ,alt='').m-auto 
+        
+        .row.justify-content-center.p-4
+          .col-lg-6.order-lg-1.order-2
+            h4 Áreas operativas y comerciales
+            p.mb-3 Necesitan información financiera para optimizar costos, mejorar la productividad y definir estrategias de ventas.
+            p Analizan los márgenes de ganancia y costos operativos para hacer ajustes en la producción o en la oferta de productos y servicios.
+          .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
+            figure
+              img(src='@/assets/curso/temas/tema2/img-09.png', style="width: 450px" ,alt='').m-auto 
     
-    .container
-      .row.justify-content-start
-        .col-lg-10
-          LineaTiempoE.color-acento-contenido(data-aos="flip-up")
-            .row.justify-content-center(titulo="01")
-              .col-lg-2.col-4.mb-lg-0.mb-4
-                img(src='@/assets/curso/temas/tema2/icono-05.svg' alt="Imagen decorativa")
-              .col-lg-10
-                .h4 Comparabilidad
-                p.mb-0 La aplicación uniforme de los principios contables, permite comparar la información financiera de diferentes períodos y entre distintas empresas.
-            .row.justify-content-center(titulo="02")
-              .col-lg-2.col-4.mb-lg-0.mb-4
-                img(src='@/assets/curso/temas/tema2/icono-06.svg' alt="Imagen decorativa")
-              .col-lg-10
-                .h4 Transparencia
-                p.mb-0 Garantizan que la información financiera refleje fielmente la situación económica de la empresa, evitando manipulaciones contables.
-            .row.justify-content-center(titulo="03")
-              .col-lg-2.col-4.mb-lg-0.mb-4
-                img(src='@/assets/curso/temas/tema2/icono-07.svg' alt="Imagen decorativa")
-              .col-lg-10
-                .h4 Toma de decisiones
-                p.mb-0 Facilitan la evaluación de la rentabilidad, liquidez y solvencia de la empresa, brindando información clave para inversionistas, acreedores y directivos.
-            .row.justify-content-center(titulo="04")
-              .col-lg-2.col-4.mb-lg-0.mb-4
-                img(src='@/assets/curso/temas/tema2/icono-08.svg' alt="Imagen decorativa")
-              .col-lg-10
-                .h4 Cumplimiento normativo
-                p.mb-0 Aseguran que la empresa cumpla con los estándares contables exigidos por las normativas nacionales e internacionales.
+    .titulo1.mb-4(data-aos="zoom-in")
+      img(src='@/assets/curso/temas/icono.svg', alt='Imagen decorativa')
+      h4.mb-0 Usuarios externos del análisis financiero
+
+    p.mb-4 Son agentes fuera de la organización que requieren información financiera para evaluar la solidez y estabilidad de la empresa. Entre ellos se encuentran:
+
+    .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
+      SlyderF(columnas="col-lg-6 col-xl-4")
+        .tarjeta.tarjeta--BG01.p-4
+          .row.justify-content-center.mb-3
+            .col-lg-5.col-sm-4.col-6
+              img(src='@/assets/curso/temas/tema2/icono-18.svg' alt='AvatarTop')
+          h4.text-center Entidades financieras y prestamistas
+          p Bancos e inversionistas analizan los estados financieros para evaluar la capacidad de pago de la empresa, antes de otorgar créditos o financiamiento.
+          p Se enfocan en indicadores como el nivel de endeudamiento, la liquidez y el flujo de caja.
+
+        .tarjeta.tarjeta--BG01.p-4
+          .row.justify-content-center.mb-3
+            .col-lg-5.col-sm-4.col-6
+              img(src='@/assets/curso/temas/tema2/icono-19.svg' alt='AvatarTop')
+          h4.text-center Proveedores y acreedores
+          p Evalúan la solidez financiera de la empresa, para determinar si es confiable otorgarle crédito comercial.
+          p Analizan la rotación de cuentas por pagar y la liquidez para medir la capacidad de cumplimiento de obligaciones.
+
+        .tarjeta.tarjeta--BG01.p-4
+          .row.justify-content-center.mb-3
+            .col-lg-5.col-sm-4.col-6
+              img(src='@/assets/curso/temas/tema2/icono-20.svg' alt='AvatarTop')
+          h4.text-center Inversionistas potenciales
+          p Buscan conocer la rentabilidad y estabilidad de la empresa antes de decidir si invierten en ella.
+          p Se enfocan en indicadores como el retorno sobre la inversión (ROI), el margen de utilidad y el crecimiento financiero.
+
+        .tarjeta.tarjeta--BG01.p-4
+          .row.justify-content-center.mb-3
+            .col-lg-5.col-sm-4.col-6
+              img(src='@/assets/curso/temas/tema2/icono-21.svg' alt='AvatarTop')
+          h4.text-center Entidades gubernamentales y organismos reguladores
+          p Utilizan el análisis financiero para verificar el cumplimiento de normativas contables, fiscales y laborales. 
+          p Evalúan la transparencia y veracidad de la información financiera para garantizar la legalidad de las operaciones. 
+
+        .tarjeta.tarjeta--BG01.p-4
+          .row.justify-content-center.mb-3
+            .col-lg-5.col-sm-4.col-6
+              img(src='@/assets/curso/temas/tema2/icono-22.svg' alt='AvatarTop')
+          h4.text-center Clientes y socios estratégicos
+          p Pueden revisar la información financiera de una empresa, para evaluar su estabilidad y confiabilidad como proveedor o aliado comercial.
+          p Empresas que firman contratos a largo plazo necesitan asegurarse de la solvencia de sus socios.
+
+    .row.justify-content-center.mb-0(data-aos="flip-up")
+      .col-lg-10.col-12.order-lg-2.order-2
+        .cajon.cajon.C01.color-secundario.p-4.mb-0
+          h4 Rol del análisis financiero en la gestión empresarial
+          p.mb-0 El análisis financiero es una herramienta clave en la gestión empresarial, ya que proporciona información objetiva sobre la situación económica de una organización, permitiendo tomar decisiones estratégicas fundamentadas. Según Ortiz (2011), su papel dentro de la empresa, se extiende a diversas áreas, incluyendo la planificación, el control y la optimización de los recursos.
 
     Separador
 
     .titulo-segundo.color-acento-contenido
-      h2#t_2_1 2.1  Relación entre activos, pasivos, patrimonio, ingresos y gastos
-
-    p.mb-4(data-aos="fade-down-right")  Los elementos fundamentales de la contabilidad: activos, pasivos, patrimonio, ingresos y gastos, están interconectados y forman la estructura de los estados financieros. Comprender su relación es vital para interpretar la situación económica y financiera de una empresa y evaluar su desempeño en el corto y largo plazo. Su explicación es la siguiente:
-
-    .row.fondo2-t2.justify-content-center.align-items-center.py-3.px-lg-5.px-4.ordenar_tarjeta.mb-4(data-aos="zoom-in")
-      .col-lg-6.order-lg-1.order-2(data-aos="fade-right")
-        ul.lista-ul.mb-0
-          li(style="margin-bottom: 2px")
-            i.fas.fa-angle-right
-            p Los #[b activos] representan los bienes y derechos que posee la empresa y que le generan beneficios económicos futuros. Se clasifican en activos corrientes, aquellos de rápida conversión en efectivo y activos no corrientes, que tienen un uso a largo plazo.
-
-          li(style="margin-bottom: 2px")
-            i.fas.fa-angle-right
-            p Los #[b pasivos], por su parte, corresponden a las obligaciones financieras adquiridas por la empresa, como deudas y compromisos de pago. Estos pueden ser de corto o largo plazo y reflejan el nivel de apalancamiento financiero.
-          
-          li(style="margin-bottom: 2px")
-            i.fas.fa-angle-right
-            p El #[b patrimonio] es la diferencia entre los activos y los pasivos, representando la inversión de los propietarios en la empresa. Es un indicador clave de la estabilidad financiera y del valor neto de la organización.
-          
-          li(style="margin-bottom: 2px")
-            i.fas.fa-angle-right
-            p Los #[b ingresos] reflejan los recursos obtenidos por la empresa a través de sus operaciones principales, como la venta de bienes o la prestación de servicios. Su correcto reconocimiento y medición influyen en la rentabilidad del negocio.
-
-          li(style="margin-bottom: 2px")
-            i.fas.fa-angle-right
-            p Por otro lado, los #[b gastos] representan las erogaciones necesarias para la operación de la empresa, como costos de producción, pago de salarios y servicios. Su adecuada gestión permite mantener un equilibrio financiero y maximizar la utilidad.
-
-      .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
-        img(src='@/assets/curso/temas/tema2/img-02.svg' alt="Imagen decorativa")
-
-    p.text-center.mb-4(data-aos="fade-down-right") La interacción entre estos elementos se evidencia en la ecuación contable fundamental:
-
-    .row.justify-content-center.p-4.mb-4(data-aos="fade-right")
-      .col-md-6.tarjeta.color-primario.p-4(style="background-color:#F1F8E9")
-        p.text-bold.text-center.mb-0 #[b Activos = Pasivos + Patrimonio]
-
-    .row.justify-content-center.mb-5(data-aos="fade-down-right") 
-      .col-10
-        p.mb-4 Esta ecuación refleja que los activos de una empresa son financiados a través de recursos propios (patrimonio) o de terceros (pasivos). Además, los ingresos y gastos impactan directamente en la estructura patrimonial, ya que los beneficios generados aumentan el patrimonio, mientras que las pérdidas lo reducen.
-        .cajon.color-secundario.p-4
-          p.mb-0 En consecuencia, un adecuado análisis de estos elementos, permite comprender la estabilidad financiera, la capacidad de endeudamiento, la rentabilidad y el crecimiento sostenible de la empresa.
+      h2#t_2_1 2.1 Apoyo en la toma de decisiones estratégicas
     
-    .titulo1.mb-5(data-aos="zoom-in")
-      img(src='@/assets/curso/temas/icono.svg', alt='Imagen decorativa')
-      h4.mb-0 Relación entre los elementos contables
+    p.mb-5 Las empresas requieren información financiera precisa para establecer planes de crecimiento, evaluar riesgos y determinar inversiones. El análisis financiero permite:
 
-    p.mb-5(data-aos="fade-down-right") Se da por medio de los siguientes procesos:
-
-    .row.justify-content-center.ali.mb-3(data-aos="flip-up")
-      .tarjeta--container.row.mb-5
-        .col-xl.col-md-6.tarjeta.color-primario.p-5(data-aos="fade-right")
-          .row.justify-content-center.mb-3
-            .col-lg-4.col-6
+    .row.justify-content-center.align-items-center.mb-4(data-aos="flip-up")
+      .col-lg-10.col-12
+        .cajon.cajon--C01.p-2.mb-4
+          .row.justify-content-center.align-items-center
+            .col-4.d-none.d-lg-block.order-lg-2.order-2.mb-lg-0
               figure
-                img(src='@/assets/curso/temas/tema2/icono-09.svg' alt="Imagen decorativa")
-          .h4.text-center La ecuación contable fundamental
-          p La interconexión entre estos elementos se expresa en la ecuación contable básica:
-          p.text-center #[b Activo = Pasivo + Patrimonio]
-          p Esto significa que todos los recursos (activos) son financiados, ya sea por terceros (pasivos) o por los dueños del negocio (patrimonio).
-        
-        .col-xl.col-md-6.tarjeta.color-secundario.p-5(data-aos="fade-left")
-          .row.justify-content-center.mb-3
-            .col-lg-4.col-6
-              figure
-                img(src='@/assets/curso/temas/tema2/icono-10.svg' alt="Imagen decorativa")
-          .h4.text-center Impacto de los ingresos y gastos en la ecuación contable
-          p Cuando la empresa genera ingresos y obtiene ganancias, su patrimonio aumenta. Por el contrario, si incurre en más gastos que ingresos, su patrimonio se reduce.
-          p.text-center #[b Utilidad Neta = Ingresos - Gastos]
-          p Las utilidades netas pueden ser reinvertidas en la empresa (aumentando el patrimonio) o distribuidas entre los socios como dividendos.
+                img(src='@/assets/curso/temas/tema2/img-10.svg', alt='Imagen decorativa')
+            .col-lg-6.col-12.mb-3.order-lg-1.order-2.mb-lg-0.p-4
+              ul.lista-ul.mb-0
+                li.mb-0
+                  i.fas.fa-check(style="color:#BAC36A")
+                  | Identificar oportunidades de expansión y diversificación.
+
+                li.mb-0
+                  i.fas.fa-check(style="color:#BAC36A")
+                  | Evaluar la rentabilidad de nuevos proyectos o líneas de negocio.
+
+                li.mb-0
+                  i.fas.fa-check(style="color:#BAC36A")
+                  | Establecer estrategias para mejorar la eficiencia operativa y reducir costos.
     
-    .titulo1.mb-5(data-aos="zoom-in")
+    p.mb-5 Por ejemplo, una empresa que evalúa la viabilidad de abrir una nueva sucursal, utilizará indicadores financieros como la rentabilidad esperada, el flujo de caja y el costo del financiamiento antes de tomar una decisión.
+
+    .titulo1.mb-4(data-aos="zoom-in")
       img(src='@/assets/curso/temas/icono.svg', alt='Imagen decorativa')
-      h4.mb-0 Relación en los estados financieros
+      h4.mb-0 Evaluación de la rentabilidad y sostenibilidad
 
-    p(data-aos="fade-down-right")  El #[b balance general] muestra la relación entre activos, pasivos y patrimonio en un momento determinado.
-    p.mb-5(data-aos="fade-down-right")  El #[b estado de resultados] refleja los ingresos y gastos en un período de tiempo, determinando la utilidad o pérdida.
+    p.mb-4 Un aspecto fundamental de la gestión empresarial es asegurar la sostenibilidad del negocio en el tiempo. A través del análisis financiero, se puede:
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-6.col-8.mb-4(data-aos="fade-right")
-        figure
-          img(src='@/assets/curso/temas/tema2/img-02.png', alt='Texto que describa la imagen')
-      .col-lg-6
-        p.mb-0 #[b Ejemplo práctico]
-        p Una empresa inicia con un capital de $50,000 y obtiene un préstamo de $20,000. Con estos recursos adquiere maquinaria por $40,000 y mantiene $30,000 en caja. Su ecuación contable sería:
-        p #[b Activos (40,000+30,000) = Pasivos (20,000) + Patrimonio (50,000)]
-        p Si durante el año la empresa genera $10,000 en ingresos y tiene $6,000 en gastos, su utilidad neta será de $4,000, lo que aumentará el patrimonio.
-        p #[b Nuevo patrimonio = 50,000 + 4,000 = 54,000]
-    
-    .titulo1.mb-5(data-aos="zoom-in")
-      img(src='@/assets/curso/temas/icono.svg', alt='Imagen decorativa')
-      h4.mb-0 Definición de los estados financieros principales
-
-    p.mb-5(data-aos="fade-down-right")  Los estados financieros son informes contables fundamentales que permiten evaluar la situación económica y el desempeño de una empresa. Proporcionan información clave para la toma de decisiones y se elaboran con base en principios contables generalmente aceptados. A continuación, se describen los tres estados financieros principales:   
-
-    .h4.tcvo.mb-4(data-aos="fade-down-right") ● A) Estado de situación financiera (balance general)
-    
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-6.col-8.mb-4(data-aos="fade-right")
-        figure
-          img(src='@/assets/curso/temas/tema2/img-03.png', alt='Texto que describa la imagen')
-      .col-lg-6
-        p.mb-0 #[b Definición]
-        p El estado de situación financiera, también conocido como balance general, presenta la posición económica de la empresa en un momento determinado, mostrando lo que posee (activos), lo que debe (pasivos) y el valor que corresponde a los propietarios (patrimonio).
-        p #[b Estructura]
-        p Se basa en la ecuación contable fundamental:
-        p #[b Activos = Pasivos + Patrimonio]
-    
-    .row.justify-content-center.mb-5
-      .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
-        .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema2/icono-11.svg' alt="Imagen decorativa")
-          .tarjeta--boton.color-secundario.p-4.py-5.h-100(style="background-color:#E5E9FE")
-            h4.text-center.mt-5.mb-0 Activos
-            p.text-center.mt-4.mb-0 Recursos controlados por la empresa, como efectivo, cuentas por cobrar, inventarios y propiedades.
-
-      .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-left")
-        .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema2/icono-12.svg' alt="Imagen decorativa")
-          .tarjeta--boton.color-secundario.p-4.py-5.h-100(style="background-color:#E5E9FE")
-            h4.text-center.mt-5.mb-0 Pasivos
-            p.text-center.mt-4.mb-0 Obligaciones financieras con terceros, como préstamos y cuentas por pagar.
-
-      .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
-        .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema2/icono-13.svg' alt="Imagen decorativa")
-          .tarjeta--boton.color-secundario.p-4.py-5.h-100(style="background-color:#E5E9FE")
-            h4.text-center.mt-5.mb-0 Patrimonio
-            p.text-center.mt-4.mb-0 Aportes de los socios y utilidades retenidas.
-
-    .row.justify-content-center.mb-5
-      .col-lg-12
-        .p-4.bg-c18(data-aos="fade-left")
-          p.text-center #[b Importancia]
-          .row.justify-content-center
-            .col-md-6.col-lg-4.mb-4.mb-lg-0
-              .p-3.bg-c19
-                .row.align-items-center
-                  .col-auto
-                    figure
-                      img(src='@/assets/curso/temas/tema3/icono-01.svg', alt='', style='width: 80px').m-auto
-                  .col
-                    .row.h-100.align-items-center
-                      .col-12
-                        p.mb-0 Permite conocer la estabilidad financiera de la empresa.
-
-            .col-md-6.col-lg-4.mb-4.mb-lg-0
-              .p-3.bg-c19
-                .row.align-items-center
-                  .col-auto
-                    figure
-                      img(src='@/assets/curso/temas/tema3/icono-02.svg', alt='', style='width: 80px').m-auto
-                  .col
-                    .row.h-100.align-items-center
-                      .col-12
-                        p.mb-0 Indica la capacidad de pago a corto y largo plazo.
-
-            .col-md-6.col-lg-4
-              .p-3.bg-c19
-                .row.align-items-center
-                  .col-auto
-                    figure
-                      img(src='@/assets/curso/temas/tema3/icono-03.svg', alt='', style='width: 80px').m-auto
-                  .col
-                    .row.h-100.align-items-center
-                      .col-12
-                        p.mb-0 Es utilizado por inversionistas y bancos para evaluar la solidez económica.
-
-    .h4.tcvo.mb-4(data-aos="fade-down-right")  ● B) Estado de resultados (estado de pérdidas y ganancias)
-
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-6.col-8.mb-4(data-aos="fade-right")
-        figure
-          img(src='@/assets/curso/temas/tema2/img-04.png', alt='Texto que describa la imagen')
-      .col-lg-6
-        p.mb-0 #[b Definición]
-        p El estado de resultados muestra el desempeño financiero de la empresa durante un período específico, reflejando sus ingresos, costos, gastos y la utilidad o pérdida neta.
-        p #[b Estructura]
-        p Se basa en la ecuación contable fundamental:
-        p #[b Utilidad neta = Ingresos - (Costos + Gastos)]
-    
     .row.justify-content-center.mb-4(data-aos="flip-up")
-      .col-xl-3.col-lg-8.mb-4.mb-xl-5
+      .col-xl-4.col-lg-8.mb-4.mb-xl-5
         .crd.crd--grayGrad_2(data-aos="flip-left")
           .bottomCircle_2.mb-5
             figure
-              img(src="@/assets/curso/temas/tema2/icono-14.svg", alt="alt").img90.m-auto
-          h4.text-center.mt-5.mb-0 Ingresos
-          p.mb-0 Ventas de bienes o servicios.
-      .col-xl-3.col-lg-8.mb-4.mb-xl-5
+              img(src="@/assets/curso/temas/tema2/icono-01-1.svg", alt="alt").img90.m-auto
+          p.mb-0 Medir la rentabilidad de la empresa mediante indicadores como el ROE (Return on Equity) y el ROA (Return on Assets).
+      .col-xl-4.col-lg-8.mb-4.mb-xl-5
         .crd.crd--grayGrad_2(data-aos="flip-left")
           .bottomCircle_2.mb-5
             figure
-              img(src="@/assets/curso/temas/tema2/icono-15.svg", alt="alt").img90.m-auto
-          h4.text-center.mt-5.mb-0 Costos
-          p.mb-0 Gastos directamente relacionados con la producción o adquisición de bienes y servicios vendidos.
-      .col-xl-3.col-lg-8.mb-4.mb-xl-5
+              img(src="@/assets/curso/temas/tema2/icono-02-1.svg", alt="alt").img90.m-auto
+          p.mb-0 Identificar factores que afectan la rentabilidad, como costos operativos elevados o una baja rotación de inventarios.
+      .col-xl-4.col-lg-8.mb-4.mb-xl-5
         .crd.crd--grayGrad_2(data-aos="flip-left")
           .bottomCircle_2.mb-5
             figure
-              img(src="@/assets/curso/temas/tema2/icono-16.svg", alt="alt").img90.m-auto
-          h4.text-center.mt-5.mb-0 Gastos
-          p.mb-0 Desembolsos operativos como sueldos, alquileres y publicidad.
-      .col-xl-3.col-lg-8.mb-4.mb-xl-5
-        .crd.crd--grayGrad_2(data-aos="flip-left")
-          .bottomCircle_2.mb-5
-            figure
-              img(src="@/assets/curso/temas/tema2/icono-17.svg", alt="alt").img90.m-auto
-          h4.text-center.mt-5.mb-0 Utilidad o pérdida
-          p.mb-0 Resultado final tras restar costos y gastos de los ingresos.
+              img(src="@/assets/curso/temas/tema2/icono-03-1.svg", alt="alt").img90.m-auto
+          p.mb-0 Determinar si los ingresos generados son suficientes para cubrir los costos y generar utilidades sostenibles.
+
+    .titulo1.mb-4(data-aos="zoom-in")
+      img(src='@/assets/curso/temas/icono.svg', alt='Imagen decorativa')
+      h4.mb-0 Gestión del riesgo financiero
+
+    p.mb-5 Toda empresa está expuesta a riesgos financieros que pueden afectar su estabilidad. El análisis financiero ayuda a:
+
+    .row.justify-content-center.align-items-center.mb-4(data-aos="flip-up")
+      .col-lg-10.col-12
+        .cajon.cajon--C01.p-2.mb-4
+          .row.justify-content-center.align-items-center
+            .col-4.d-none.d-lg-block.order-lg-2.order-2.mb-lg-0
+              figure
+                img(src='@/assets/curso/temas/tema2/img-11.svg', alt='Imagen decorativa')
+            .col-lg-6.col-12.mb-3.order-lg-1.order-2.mb-lg-0.p-4
+              ul.lista-ul.mb-0
+                li.mb-0
+                  i.fas.fa-check(style="color:#BAC36A")
+                  | Identificar riesgos de liquidez, asegurando que la empresa pueda cumplir con sus obligaciones de corto plazo.
+
+                li.mb-0
+                  i.fas.fa-check(style="color:#BAC36A")
+                  | Evaluar el endeudamiento y su impacto en la estabilidad financiera.
+
+                li.mb-0
+                  i.fas.fa-check(style="color:#BAC36A")
+                  | Prever posibles crisis financieras y tomar medidas correctivas a tiempo.
+
+    p.mb-5 Por ejemplo, una empresa con un alto nivel de endeudamiento puede utilizar el índice de cobertura de intereses, para determinar si tiene la capacidad de pagar su deuda sin comprometer su operación.
+
+    .titulo1.mb-4(data-aos="zoom-in")
+      img(src='@/assets/curso/temas/icono.svg', alt='Imagen decorativa')
+      h4.mb-0 Optimización del uso de los recursos
+
+    p.mb-5 La gestión eficiente de los recursos financieros permite mejorar la productividad y la competitividad de la empresa. El análisis financiero contribuye a:
+
+    .row.justify-content-center.align-items-center.mb-4(data-aos="flip-up")
+      .col-lg-10.col-12
+        .cajon.cajon--C01.p-2.mb-4
+          .row.justify-content-center.align-items-center
+            .col-4.d-none.d-lg-block.order-lg-2.order-2.mb-lg-0
+              figure
+                img(src='@/assets/curso/temas/tema2/img-12.svg', alt='Imagen decorativa')
+            .col-lg-6.col-12.mb-3.order-lg-1.order-2.mb-lg-0.p-4
+              ul.lista-ul.mb-0
+                li.mb-0
+                  i.fas.fa-check(style="color:#BAC36A")
+                  | Identificar áreas de la empresa donde se pueden reducir costos sin afectar la calidad.
+
+                li.mb-0
+                  i.fas.fa-check(style="color:#BAC36A")
+                  | Optimizar la gestión del capital de trabajo, asegurando un equilibrio entre cuentas por cobrar, inventarios y cuentas por pagar.
+
+                li.mb-0
+                  i.fas.fa-check(style="color:#BAC36A")
+                  | Determinar estrategias para mejorar la eficiencia operativa y maximizar los beneficios.
+
+    p.mb-5 Un caso común es el análisis del ciclo de conversión de efectivo, que permite a las empresas gestionar mejor sus flujos de caja y evitar problemas de liquidez.
+
+    .titulo1.mb-4(data-aos="zoom-in")
+      img(src='@/assets/curso/temas/icono.svg', alt='Imagen decorativa')
+      h4.mb-0 Medición del desempeño financiero
+
+    p.mb-5 El análisis financiero es esencial para evaluar el cumplimiento de los objetivos organizacionales. A través del uso de indicadores de gestión, la empresa puede:
+
+    .row.justify-content-center.align-items-center.mb-4(data-aos="flip-up")
+      .col-lg-10.col-12
+        .cajon.cajon--C01.p-2.mb-4
+          .row.justify-content-center.align-items-center
+            .col-4.d-none.d-lg-block.order-lg-2.order-2.mb-lg-0
+              figure
+                img(src='@/assets/curso/temas/tema2/img-13.svg', alt='Imagen decorativa')
+            .col-lg-6.col-12.mb-3.order-lg-1.order-2.mb-lg-0.p-4
+              ul.lista-ul.mb-0
+                li.mb-0
+                  i.fas.fa-check(style="color:#BAC36A")
+                  | Comparar su desempeño con períodos anteriores o con empresas del mismo sector.
+
+                li.mb-0
+                  i.fas.fa-check(style="color:#BAC36A")
+                  | Establecer metas financieras realistas y monitorear su progreso.
+
+                li.mb-0
+                  i.fas.fa-check(style="color:#BAC36A")
+                  | Implementar acciones correctivas en caso de desviaciones en los resultados esperados.
+
+    p.mb-0 El uso de herramientas como el análisis horizontal y vertical, junto con indicadores como el margen de utilidad y el EBITDA, permite obtener una visión clara del desempeño de la empresa y su evolución a lo largo del tiempo.
+
+    Separador
+
+    .titulo-segundo.color-acento-contenido
+      h2#t_2_2 2.2 Aplicaciones del análisis financiero en la toma de decisiones
+
+    p.mb-5 El análisis financiero es una herramienta esencial para la toma de decisiones estratégicas dentro de una organización. A través del estudio detallado de los estados financieros y el uso de diversos indicadores, es posible obtener información valiosa sobre la economía de la empresa, su capacidad para generar utilidades y su sostenibilidad a largo plazo.
+
+    .row.justify-content-center.mb-5(data-aos="flip-up")
+      .col-lg-8.col-12.order-lg-2.order-2
+        .cajon.cajon.C01.color-primario.p-4.mb-0
+          p.mb-0 Este proceso permite evaluar distintos escenarios y alternativas que afectan el desempeño financiero, brindando soporte en la planificación y ejecución de estrategias empresariales. Desde la evaluación de inversiones, hasta la gestión de riesgos, el análisis financiero proporciona una base objetiva para optimizar recursos y mejorar la rentabilidad.
     
-    .row.justify-content-center.mb-5
-      .col-lg-12
-        .p-4.bg-c18(data-aos="fade-left")
-          p.text-center #[b Importancia]
-          .row.justify-content-center
-            .col-md-6.col-lg-4.mb-4.mb-lg-0
-              .p-3.bg-c19
-                .row.align-items-center
-                  .col-auto
-                    figure
-                      img(src='@/assets/curso/temas/tema3/icono-04.svg', alt='', style='width: 80px').m-auto
-                  .col
-                    .row.h-100.align-items-center
-                      .col-12
-                        p.mb-0 Permite evaluar la rentabilidad del negocio.
+    p.mb-5 A continuación, se presentan las principales decisiones que pueden tomarse a partir del análisis financiero:
 
-            .col-md-6.col-lg-4.mb-4.mb-lg-0
-              .p-3.bg-c19
-                .row.align-items-center
-                  .col-auto
-                    figure
-                      img(src='@/assets/curso/temas/tema3/icono-05.svg', alt='', style='width: 80px').m-auto
-                  .col
-                    .row.h-100.align-items-center
-                      .col-12
-                        p.mb-0 Ayuda a identificar áreas donde se pueden reducir costos o aumentar ingresos.
-
-            .col-md-6.col-lg-4
-              .p-3.bg-c19
-                .row.align-items-center
-                  .col-auto
-                    figure
-                      img(src='@/assets/curso/temas/tema3/icono-06.svg', alt='', style='width: 80px').m-auto
-                  .col
-                    .row.h-100.align-items-center
-                      .col-12
-                        p.mb-0 Es clave para determinar el pago de impuestos y dividendos.
-    
-    .h4.tcvo.mb-4(data-aos="fade-down-right") ● C) Estado de flujo de efectivo
-
-    .row.justify-content-center.align-items-center.mb-4
-      .col-lg-5.col-8.mb-4(data-aos="fade-right")
+    .row.justify-content-center(data-aos="fade-down-right")
+      .col-lg-4.col-12.mb-3.d-lg-flex.d-none
         figure
-          img(src='@/assets/curso/temas/tema2/img-05.png', alt='Texto que describa la imagen')
-      .col-lg-7
-        p.mb-0 #[b Definición]
-        p El estado de flujo de efectivo muestra cómo la empresa genera y utiliza el efectivo en un período determinado.
-        p.mb-0 #[b Estructura]
-        p Se tienen las siguientes actividades:
-        ul.lista-ul
-          li(style="margin-bottom: 2px")
-            i.fas.fa-angle-right
-            p.mb-0 #[b Actividades de operación:] flujo de efectivo derivado de la actividad principal de la empresa, como cobros a clientes y pagos a proveedores.
+          img(src='@/assets/curso/temas/tema2/img-14.png', alt='Imagen decorativa')
+      .col-lg-8.col-12.mb-3
+        AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--C01")
+          .row(titulo="Decisiones de inversión")
+            .col-md-12.mb-4.mb-md-0
+              p Permite evaluar la viabilidad de proyectos de inversión, analizando indicadores como el Retorno Sobre la Inversión (ROI) y el Valor Presente Neto (VPN). Con esta información, se puede determinar si una inversión generará beneficios a largo plazo.
 
-          li(style="margin-bottom: 2px")
-            i.fas.fa-angle-right
-            p.mb-0 #[b Actividades de inversión:] movimientos relacionados con la compra o venta de activos a largo plazo, como propiedades o equipos.
+          .row(titulo="Decisiones de financiamiento")
+            .col-md-12.mb-4.mb-md-0
+              p Ayuda a definir la mejor estructura de capital para la empresa, evaluando la conveniencia de obtener recursos, a través de deuda o capital propio. Factores como la tasa de interés, el costo de capital y la capacidad de pago, son analizados para minimizar riesgos financieros.
 
-          li(style="margin-bottom: 2px")
-            i.fas.fa-angle-right
-            p.mb-0 #[b Actividades de financiamiento:] incluye la obtención y pago de préstamos, emisión de acciones y distribución de dividendos.
-
-    .row.justify-content-center.mb-5
-      .col-lg-12
-        .p-4.bg-c18(data-aos="fade-left")
-          p.text-center #[b Importancia]
-          .row.justify-content-center
-            .col-md-6.col-lg-4.mb-4.mb-lg-0
-              .p-3.bg-c19
-                .row.align-items-center
-                  .col-auto
-                    figure
-                      img(src='@/assets/curso/temas/tema3/icono-07.svg', alt='', style='width: 80px').m-auto
-                  .col
-                    .row.h-100.align-items-center
-                      .col-12
-                        p.mb-0 Indica la liquidez real de la empresa.
-
-            .col-md-6.col-lg-4.mb-4.mb-lg-0
-              .p-3.bg-c19
-                .row.align-items-center
-                  .col-auto
-                    figure
-                      img(src='@/assets/curso/temas/tema3/icono-08.svg', alt='', style='width: 80px').m-auto
-                  .col
-                    .row.h-100.align-items-center
-                      .col-12
-                        p.mb-0 Ayuda a prever problemas de flujo de caja.
-
-            .col-md-6.col-lg-4
-              .p-3.bg-c19
-                .row.align-items-center
-                  .col-auto
-                    figure
-                      img(src='@/assets/curso/temas/tema3/icono-09.svg', alt='', style='width: 80px').m-auto
-                  .col
-                    .row.h-100.align-items-center
-                      .col-12
-                        p.mb-0 Es clave para evaluar la capacidad de pago de deudas y la sostenibilidad del negocio.
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+          .row(titulo="Decisiones operativas")
+            .col-md-12.mb-4.mb-md-0
+              p Facilita la optimización de costos y gastos, mejorando la eficiencia en el uso de los recursos. A través del análisis financiero, se pueden identificar áreas donde la empresa puede reducir costos, sin afectar la calidad de sus productos o servicios.
+          
+          .row(titulo="Decisiones de crecimiento y expansión")
+            .col-md-12.mb-4.mb-md-0
+              p Con base en la evaluación de la rentabilidad y la capacidad de generación de flujo de caja, se pueden tomar decisiones sobre la apertura de nuevas sucursales, la diversificación de productos o la incursión en nuevos mercados.
+          
+          .row(titulo="Gestión de riesgos financieros")
+            .col-md-12.mb-4.mb-md-0
+              p Permite anticipar y mitigar riesgos asociados a la volatilidad del mercado, fluctuaciones en las tasas de interés, inflación y cambios en el entorno económico.
+              
     
     //- .cronologia.mb-5
     //-   .contenedor

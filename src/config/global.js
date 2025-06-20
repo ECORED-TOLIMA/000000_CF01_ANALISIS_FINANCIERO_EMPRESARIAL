@@ -32,8 +32,7 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo:
-          'Introducción al análisis financiero y su importancia en las organizaciones',
+        titulo: 'Fundamentos del análisis financiero',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -43,29 +42,18 @@ export default {
           },
           {
             numero: '1.2',
-            titulo: 'Importancia del análisis financiero en las organizaciones',
+            titulo: 'Objetivos del análisis financiero',
             hash: 't_1_2',
           },
           {
             numero: '1.3',
-            titulo:
-              'Aplicaciones del análisis financiero en la toma de decisiones',
+            titulo: 'Importancia del análisis financiero en las organizaciones',
             hash: 't_1_3',
           },
           {
             numero: '1.4',
-            titulo: 'Usuarios del análisis financiero: internos y externos',
-            hash: 't_1_4',
-          },
-          {
-            numero: '1.5',
-            titulo: 'Apoyo en la toma de decisiones estratégicas',
-            hash: 't_1_5',
-          },
-          {
-            numero: '1.6',
             titulo: 'Beneficios y limitaciones del análisis financiero',
-            hash: 't_1_6',
+            hash: 't_1_4',
           },
         ],
       },
@@ -73,38 +61,80 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Principios de contabilidad aplicados al análisis financiero',
+        titulo: 'Usuarios del análisis financiero y toma de decisiones',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '2.1',
-            titulo:
-              'Relación entre activos, pasivos, patrimonio, ingresos y gastos',
+            titulo: 'Apoyo en la toma de decisiones estratégicas',
             hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo:
+              'Aplicaciones del análisis financiero en la toma de decisiones',
+            hash: 't_2_2',
           },
         ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo:
-          'Técnicas básicas: análisis horizontal y vertical de estados financieros',
+        titulo: 'Principios de contabilidad y los estados financieros',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '3.1',
-            titulo: 'Análisis horizontal',
+            titulo:
+              'Principios de contabilidad aplicados al análisis financiero  ',
             hash: 't_3_1',
           },
           {
             numero: '3.2',
-            titulo: 'Análisis vertical',
+            titulo: 'Impacto en la interpretación de los estados financieros',
             hash: 't_3_2',
           },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Estados financieros obligatorios',
+        desarrolloContenidos: true,
+        subMenu: [
           {
-            numero: '3.3',
+            numero: '4.1',
+            titulo: 'Elementos fundamentales de la contabilidad ',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Relación en los estados  financieros ',
+            hash: 't_4_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo:
+          'Técnicas básicas: análisis (lectura) horizontal y vertical de estados financieros ',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '5.1',
+            titulo: 'Análisis horizontal',
+            hash: 't_5_1',
+          },
+          {
+            numero: '5.2',
+            titulo: 'Análisis vertical',
+            hash: 't_5_2',
+          },
+          {
+            numero: '5.3',
             titulo: 'Comparación entre el análisis horizontal y vertical',
-            hash: 't_3_3',
+            hash: 't_5_3',
           },
         ],
       },
