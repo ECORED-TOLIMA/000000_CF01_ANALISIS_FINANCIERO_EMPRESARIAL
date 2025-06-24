@@ -26,7 +26,7 @@
           .col-4
             img(src='@/assets/curso/temas/tema4/icono-02.svg' alt='AvatarTop')
         h4.text-center Estado de resultado integral (antes estado de resultados)
-        p.text-center LMuestra ingresos, costos, gastos y utilidad o pérdida del ejercicio.
+        p.text-center Muestra ingresos, costos, gastos y utilidad o pérdida del ejercicio.
       .col-md-6.col-lg.tarjeta--tabla.p-4(style="background-color:#F1F8E9")
         .row.justify-content-center.mb-3
           .col-4
@@ -52,18 +52,18 @@
 
       .col-lg-6.col-12.mb-3(data-aos="fade-right")
         p Al respecto, se debe tener en cuenta lo siguiente: 
-        ul.lista-ul.mb-0
+        ul.lista-ul.list-color.mb-0
           li.mb-2
             i.fas.fa-check(style="color:#BAC36A")
-            | Estos estados deben elaborarse al cierre del ejercicio contable (generalmente el 31 de diciembre).
+            | Estos estados deben elaborarse al #[b cierre del ejercicio contable (generalmente el 31 de diciembre).]
 
           li.mb-2
             i.fas.fa-check(style="color:#BAC36A")
-            | Son obligatorios para todas las empresas que lleven contabilidad, incluidas personas naturales obligadas a llevarla.
+            | Son #[b obligatorios para todas las empresas que lleven contabilidad,] incluidas personas naturales obligadas a llevarla.
 
           li.mb-2
             i.fas.fa-check(style="color:#BAC36A")
-            | Empresas clasificadas en los Grupos 1, 2 o 3 según el marco técnico contable (NIIF plenas, NIIF para Pymes, Contabilidad simplificada), deben seguir el formato que aplique según su grupo.
+            | Empresas #[b clasificadas en los Grupos 1, 2 o 3] según el marco técnico contable (NIIF plenas, NIIF para Pymes, Contabilidad simplificada), deben seguir el formato que aplique según su grupo.
     
     Separador
     
@@ -96,7 +96,7 @@
             p Por otro lado, los #[b gastos] representan las erogaciones necesarias para la operación de la empresa, como costos de producción, pago de salarios y servicios. Su adecuada gestión permite mantener un equilibrio financiero y maximizar la utilidad.
 
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
-        img(src='@/assets/curso/temas/tema2/img-02.svg' alt="Imagen decorativa")
+        img(src='@/assets/curso/temas/tema4/img-02.png' alt="Imagen decorativa")
 
     p.text-center.mb-4(data-aos="fade-down-right") La interacción entre estos elementos se evidencia en la ecuación contable fundamental:
 
@@ -117,7 +117,7 @@
     p.mb-5(data-aos="fade-down-right") Se da por medio de los siguientes procesos:
 
     .row.justify-content-center.ali.mb-0(data-aos="flip-up")
-      .tarjeta--container.row.mb-5
+      .tarjeta--container.row.mb-0
         .col-xl.col-md-6.tarjeta.color-primario.p-5(data-aos="fade-right")
           .row.justify-content-center.mb-3
             .col-lg-4.col-6
@@ -163,7 +163,7 @@
 
     p.mb-5(data-aos="fade-down-right")  Los estados financieros son informes contables fundamentales que permiten evaluar la situación económica y el desempeño de una empresa. Proporcionan información clave para la toma de decisiones y se elaboran con base en principios contables generalmente aceptados. A continuación, se describen los tres estados financieros principales:   
 
-    .h4.tcvo.mb-4(data-aos="fade-down-right") ● A) Estado de situación financiera (balance general)
+    .h4.tcvo.mb-4(data-aos="fade-down-right") A. Estado de situación financiera (balance general)
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-6.col-8.mb-4(data-aos="fade-right")
@@ -171,7 +171,7 @@
           img(src='@/assets/curso/temas/tema2/img-03.png', alt='Texto que describa la imagen')
       .col-lg-6
         p.mb-0 #[b Definición]
-        p El estado de situación financiera, también conocido como balance general, presenta la posición económica de la empresa en un momento determinado, mostrando lo que posee (activos), lo que debe (pasivos) y el valor que corresponde a los propietarios (patrimonio).
+        p El estado de situación financiera, también conocido como #[b balance general,] presenta la posición económica de la empresa en un momento determinado, mostrando lo que posee (activos), lo que debe (pasivos) y el valor que corresponde a los propietarios (patrimonio).
         p #[b Estructura]
         p Se basa en la ecuación contable fundamental:
         p #[b Activos = Pasivos + Patrimonio]
@@ -208,7 +208,7 @@
                 .row.align-items-center
                   .col-auto
                     figure
-                      img(src='@/assets/curso/temas/tema3/icono-01.svg', alt='', style='width: 80px').m-auto
+                      img(src='@/assets/curso/temas/tema3/icono-01.svg', alt='', style='width: 70px').m-auto
                   .col
                     .row.h-100.align-items-center
                       .col-12
@@ -219,7 +219,7 @@
                 .row.align-items-center
                   .col-auto
                     figure
-                      img(src='@/assets/curso/temas/tema3/icono-02.svg', alt='', style='width: 80px').m-auto
+                      img(src='@/assets/curso/temas/tema3/icono-02.svg', alt='', style='width: 70px').m-auto
                   .col
                     .row.h-100.align-items-center
                       .col-12
@@ -230,13 +230,13 @@
                 .row.align-items-center
                   .col-auto
                     figure
-                      img(src='@/assets/curso/temas/tema3/icono-03.svg', alt='', style='width: 80px').m-auto
+                      img(src='@/assets/curso/temas/tema3/icono-03.svg', alt='', style='width: 70px').m-auto
                   .col
                     .row.h-100.align-items-center
                       .col-12
                         p.mb-0 Es utilizado por inversionistas y bancos para evaluar la solidez económica.
 
-    .h4.tcvo.mb-4(data-aos="fade-down-right")  ● B) Estado de resultados (estado de pérdidas y ganancias)
+    .h4.tcvo.mb-4(data-aos="fade-down-right") B. Estado de resultados (estado de pérdidas y ganancias)
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-6.col-8.mb-4(data-aos="fade-right")
@@ -289,7 +289,7 @@
                 .row.align-items-center
                   .col-auto
                     figure
-                      img(src='@/assets/curso/temas/tema3/icono-04.svg', alt='', style='width: 80px').m-auto
+                      img(src='@/assets/curso/temas/tema3/icono-04.svg', alt='', style='width: 70px').m-auto
                   .col
                     .row.h-100.align-items-center
                       .col-12
@@ -300,7 +300,7 @@
                 .row.align-items-center
                   .col-auto
                     figure
-                      img(src='@/assets/curso/temas/tema3/icono-05.svg', alt='', style='width: 80px').m-auto
+                      img(src='@/assets/curso/temas/tema3/icono-05.svg', alt='', style='width: 70px').m-auto
                   .col
                     .row.h-100.align-items-center
                       .col-12
@@ -311,13 +311,13 @@
                 .row.align-items-center
                   .col-auto
                     figure
-                      img(src='@/assets/curso/temas/tema3/icono-06.svg', alt='', style='width: 80px').m-auto
+                      img(src='@/assets/curso/temas/tema3/icono-06.svg', alt='', style='width: 70px').m-auto
                   .col
                     .row.h-100.align-items-center
                       .col-12
                         p.mb-0 Es clave para determinar el pago de impuestos y dividendos.
     
-    .h4.tcvo.mb-4(data-aos="fade-down-right") ● C) Estado de flujo de efectivo
+    .h4.tcvo.mb-4(data-aos="fade-down-right") C. Estado de flujo de efectivo
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-5.col-8.mb-4(data-aos="fade-right")
@@ -351,7 +351,7 @@
                 .row.align-items-center
                   .col-auto
                     figure
-                      img(src='@/assets/curso/temas/tema3/icono-07.svg', alt='', style='width: 80px').m-auto
+                      img(src='@/assets/curso/temas/tema3/icono-07.svg', alt='', style='width: 70px').m-auto
                   .col
                     .row.h-100.align-items-center
                       .col-12
@@ -362,7 +362,7 @@
                 .row.align-items-center
                   .col-auto
                     figure
-                      img(src='@/assets/curso/temas/tema3/icono-08.svg', alt='', style='width: 80px').m-auto
+                      img(src='@/assets/curso/temas/tema3/icono-08.svg', alt='', style='width: 70px').m-auto
                   .col
                     .row.h-100.align-items-center
                       .col-12
@@ -373,7 +373,7 @@
                 .row.align-items-center
                   .col-auto
                     figure
-                      img(src='@/assets/curso/temas/tema3/icono-09.svg', alt='', style='width: 80px').m-auto
+                      img(src='@/assets/curso/temas/tema3/icono-09.svg', alt='', style='width: 70px').m-auto
                   .col
                     .row.h-100.align-items-center
                       .col-12

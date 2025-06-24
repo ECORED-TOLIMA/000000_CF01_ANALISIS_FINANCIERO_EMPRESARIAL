@@ -54,6 +54,18 @@ export default {
             numero: '1.4',
             titulo: 'Beneficios y limitaciones del análisis financiero',
             hash: 't_1_4',
+            subMenu: [
+              {
+                numero: '',
+                titulo: 'Beneficios del análisis financiero',
+                hash: 't_1_4',
+              },
+              {
+                numero: '',
+                titulo: 'Limitaciones del análisis financiero',
+                hash: 't_1_4',
+              },
+            ],
           },
         ],
       },

@@ -12,7 +12,7 @@
         figure
           img(src='@/assets/curso/temas/tema2/img-01.png', alt='')
 
-    p.mb-4(data-aos="fade-down-right") El análisis financiero es una herramienta fundamental para la toma de decisiones en una organización y su utilidad se extiende a distintos grupos de interés. Retomando a Ortiz (2011), los usuarios del análisis financiero se pueden clasificar en internos y externos, dependiendo de su relación con la empresa y los objetivos que buscan con la información financiera.
+    p.mb-4(data-aos="fade-down-right") El análisis financiero es una herramienta fundamental para la toma de decisiones en una organización y su utilidad se extiende a distintos grupos de interés. Retomando a Ortiz (2011), los usuarios del análisis financiero se pueden clasificar en #[b internos] y #[b externos,] dependiendo de su relación con la empresa y los objetivos que buscan con la información financiera.
 
     .titulo1.mb-4(data-aos="zoom-in")
       img(src='@/assets/curso/temas/icono.svg', alt='Imagen decorativa')
@@ -128,15 +128,15 @@
                 img(src='@/assets/curso/temas/tema2/img-10.svg', alt='Imagen decorativa')
             .col-lg-6.col-12.mb-3.order-lg-1.order-2.mb-lg-0.p-4
               ul.lista-ul.mb-0
-                li.mb-0
+                li.mb-2
                   i.fas.fa-check(style="color:#BAC36A")
                   | Identificar oportunidades de expansión y diversificación.
 
-                li.mb-0
+                li.mb-2
                   i.fas.fa-check(style="color:#BAC36A")
                   | Evaluar la rentabilidad de nuevos proyectos o líneas de negocio.
 
-                li.mb-0
+                li.mb-2
                   i.fas.fa-check(style="color:#BAC36A")
                   | Establecer estrategias para mejorar la eficiencia operativa y reducir costos.
     
@@ -154,7 +154,7 @@
           .bottomCircle_2.mb-5
             figure
               img(src="@/assets/curso/temas/tema2/icono-01-1.svg", alt="alt").img90.m-auto
-          p.mb-0 Medir la rentabilidad de la empresa mediante indicadores como el ROE (Return on Equity) y el ROA (Return on Assets).
+          p.mb-0 Medir la rentabilidad de la empresa mediante indicadores como el #[b ROE (Return on Equity)] y el #[b ROA (Return on Assets).]
       .col-xl-4.col-lg-8.mb-4.mb-xl-5
         .crd.crd--grayGrad_2(data-aos="flip-left")
           .bottomCircle_2.mb-5
@@ -183,19 +183,19 @@
                 img(src='@/assets/curso/temas/tema2/img-11.svg', alt='Imagen decorativa')
             .col-lg-6.col-12.mb-3.order-lg-1.order-2.mb-lg-0.p-4
               ul.lista-ul.mb-0
-                li.mb-0
+                li.mb-2
                   i.fas.fa-check(style="color:#BAC36A")
                   | Identificar riesgos de liquidez, asegurando que la empresa pueda cumplir con sus obligaciones de corto plazo.
 
-                li.mb-0
+                li.mb-2
                   i.fas.fa-check(style="color:#BAC36A")
                   | Evaluar el endeudamiento y su impacto en la estabilidad financiera.
 
-                li.mb-0
+                li.mb-2
                   i.fas.fa-check(style="color:#BAC36A")
                   | Prever posibles crisis financieras y tomar medidas correctivas a tiempo.
 
-    p.mb-5 Por ejemplo, una empresa con un alto nivel de endeudamiento puede utilizar el índice de cobertura de intereses, para determinar si tiene la capacidad de pagar su deuda sin comprometer su operación.
+    p.mb-5 Por ejemplo, una empresa con un alto nivel de endeudamiento puede utilizar el #[b índice de cobertura] de intereses, para determinar si tiene la capacidad de pagar su deuda sin comprometer su operación.
 
     .titulo1.mb-4(data-aos="zoom-in")
       img(src='@/assets/curso/temas/icono.svg', alt='Imagen decorativa')
@@ -212,15 +212,15 @@
                 img(src='@/assets/curso/temas/tema2/img-12.svg', alt='Imagen decorativa')
             .col-lg-6.col-12.mb-3.order-lg-1.order-2.mb-lg-0.p-4
               ul.lista-ul.mb-0
-                li.mb-0
+                li.mb-2
                   i.fas.fa-check(style="color:#BAC36A")
                   | Identificar áreas de la empresa donde se pueden reducir costos sin afectar la calidad.
 
-                li.mb-0
+                li.mb-2
                   i.fas.fa-check(style="color:#BAC36A")
                   | Optimizar la gestión del capital de trabajo, asegurando un equilibrio entre cuentas por cobrar, inventarios y cuentas por pagar.
 
-                li.mb-0
+                li.mb-2
                   i.fas.fa-check(style="color:#BAC36A")
                   | Determinar estrategias para mejorar la eficiencia operativa y maximizar los beneficios.
 
@@ -241,19 +241,19 @@
                 img(src='@/assets/curso/temas/tema2/img-13.svg', alt='Imagen decorativa')
             .col-lg-6.col-12.mb-3.order-lg-1.order-2.mb-lg-0.p-4
               ul.lista-ul.mb-0
-                li.mb-0
+                li.mb-2
                   i.fas.fa-check(style="color:#BAC36A")
                   | Comparar su desempeño con períodos anteriores o con empresas del mismo sector.
 
-                li.mb-0
+                li.mb-2
                   i.fas.fa-check(style="color:#BAC36A")
                   | Establecer metas financieras realistas y monitorear su progreso.
 
-                li.mb-0
+                li.mb-2
                   i.fas.fa-check(style="color:#BAC36A")
                   | Implementar acciones correctivas en caso de desviaciones en los resultados esperados.
 
-    p.mb-0 El uso de herramientas como el análisis horizontal y vertical, junto con indicadores como el margen de utilidad y el EBITDA, permite obtener una visión clara del desempeño de la empresa y su evolución a lo largo del tiempo.
+    p.mb-0 El uso de herramientas como el #[b análisis horizontal y vertical,] junto con indicadores como el margen de utilidad y el EBITDA, permite obtener una visión clara del desempeño de la empresa y su evolución a lo largo del tiempo.
 
     Separador
 
