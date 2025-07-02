@@ -147,7 +147,7 @@
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema3/img-06.png' alt="Imagen decorativa")
 
-    p.mb-5(data-aos="fade-down-right") Como características del análisis vertical, se pueden encontrar aspectos como los siguientes, los cuales tiene se explicación:
+    p.mb-5(data-aos="fade-down-right") Como características del análisis vertical, se pueden encontrar las siguientes:
     
     .row.justify-content-center.mb-5
       .col-xl-4.col-lg-6.col-md-6.col-12.mb-4.mb-xl-0
@@ -261,13 +261,15 @@
                 td #[b Total activos]
                 td 2000
                 td 100 %
+
+    p.mb-0 Los activos corrientes representan el 40 % del total de activos, mientras que los activos no corrientes constituyen el 60 %. 
     
     Separador
 
     .titulo-segundo.color-acento-contenido
       h2#t_5_3 5.3 Comparación entre el análisis horizontal y vertical
 
-    p.mb-5(data-aos="fade-down-right") El análisis financiero se basa en diversas herramientas que permiten interpretar la información contable de manera efectiva. Entre ellas, el análisis horizontal y el análisis vertical se destacan por su capacidad para evaluar la situación financiera desde diferentes ángulos. 
+    p.mb-0(data-aos="fade-down-right") El análisis financiero se basa en diversas herramientas que permiten interpretar la información contable de manera efectiva. Entre ellas, el análisis horizontal y el análisis vertical se destacan por su capacidad para evaluar la situación financiera desde diferentes ángulos. 
     
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-3.col-12.mb-3.d-lg-flex.d-none(data-aos="fade-left")

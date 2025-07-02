@@ -19,14 +19,14 @@
         br
         p La disciplina que da origen a los estados financieros es la contabilidad y esta se define como “el arte de registrar, clasificar, resumir e interpretar los datos financieros, con el fin de que éstos sirvan a los diferentes estamentos interesados en las operaciones de una empresa”. Ortiz (2011).
 
-    p.mb-4 La manera más lógica y comúnmente aceptada de cumplir esta tarea, asignada a la contabilidad, es a través de informes contables, denominados estados financieros.
+    p.mb-0 La manera más lógica y comúnmente aceptada de cumplir esta tarea, asignada a la contabilidad, es a través de informes contables, denominados estados financieros.
 
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center.mb-0
       .col-lg-3.col-12.mb-3.d-lg-flex.d-none(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/tema3/img-16.svg', alt='Imagen decorativa')
 
-      .col-lg-7.col-12.mb-3(data-aos="fade-right")
+      .col-lg-7.col-12.mb-0(data-aos="fade-right")
         .bloque-texto-b.color-primario.py-4
           .bloque-texto-b__texto
             p Los estados financieros se preparan para presentar en un informe periódico acerca de la situación del negocio, los progresos de la administración y los resultados obtenidos durante el período que se estudia. Constituyen una combinación de hechos registrados, convenciones contables y juicios personales.

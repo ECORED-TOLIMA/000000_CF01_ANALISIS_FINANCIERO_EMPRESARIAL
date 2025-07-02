@@ -123,8 +123,8 @@
     .titulo-segundo.color-acento-contenido
       h2#t_1_4 1.4 Beneficios y limitaciones del análisis financiero
     
-    p.mb-5(data-aos="fade-down-right") El análisis financiero es una herramienta esencial para la toma de decisiones estratégicas dentro de una organización. A través del estudio detallado de los estados financieros y el uso de diversos indicadores, es posible obtener información valiosa sobre la economía de la empresa, su capacidad para generar utilidades y su sostenibilidad a largo plazo.
-
+    p.mb-5(data-aos="fade-down-right") El análisis financiero es una herramienta fundamental para evaluar la situación económica de una empresa, facilitando la toma de decisiones estratégicas. Sin embargo, aunque ofrece múltiples ventajas, también presenta ciertas limitaciones que deben ser consideradas al momento de interpretar los resultados.
+    
     .titulo1.mb-5(data-aos="zoom-in")
       img(src='@/assets/curso/temas/icono.svg', alt='Imagen decorativa')
       h4.mb-0 Beneficios del análisis financiero

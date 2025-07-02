@@ -263,7 +263,7 @@
             figure
               img(src="@/assets/curso/temas/tema4/icono-06.svg", alt="alt").img90.m-auto
           h4.text-center Costos
-          p.mb-0 Gastos directamente relacionados con la producción o adquisición de bienes y servicios vendidos.
+          p.mb-0 Erogación relacionada directamente con la producción.
       .col-xl-3.col-lg-8.mb-4.mb-xl-5
         .crd.crd--grayGrad_3(data-aos="flip-left")
           .bottomCircle_3.mb-5
