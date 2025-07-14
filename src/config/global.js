@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: 'Fundamentos del análisis financiero',
+    Name: 'Fundamentos del análisis financiero',
     descripcionCurso:
       'Este componente introduce a los aprendices en los conceptos fundamentales del análisis financiero, proporcionando una base sólida sobre su importancia en la gestión empresarial. Se explorarán los principios de contabilidad aplicados al análisis financiero y se abordarán técnicas básicas para la lectura e interpretación de estados financieros.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
